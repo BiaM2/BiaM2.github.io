@@ -29,8 +29,8 @@ y el asesoramiento de profesores, especialistas o investigadores.
 	 Los equipos de trabajo deben estar conformados por 2 a 5 estudiantes mas un docente 
 	 Los equipos de trabajo pueden participar en una de las tres categorias:
 	
-	1. Categoria Bernulli] Estudiantes de colegio nacidos en 2003 hacia adelante
-2. Categoria Poisson] Estudiantes de colegio nacidos en elos años 2000, 2001 y 2002 
+	1. Categoria Bernulli Estudiantes de colegio nacidos en 2003 hacia adelante
+2. Categoria Poisson Estudiantes de colegio nacidos en elos años 2000, 2001 y 2002 
 	3. Categoria Gauss] Estudiantes del pregrado de universidades sin limite de edad 
  La inscripcion es libre y gratuita
 

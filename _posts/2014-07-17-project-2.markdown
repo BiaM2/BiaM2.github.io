@@ -1,5 +1,5 @@
 ---
-title: REGLAMENTO
+title: REGLAMENTOr
 subtitle: 
 layout: default
 modal-id: 2

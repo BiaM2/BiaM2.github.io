@@ -5,19 +5,19 @@ layout: default
 modal-id: 2
 date: 2014-07-17
 img: escape.png
-thumbnail: escape-thumbnail.png
+thumbnail: 
 alt: image-alt
 
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Las Competencias Boliviana de Posters Estadísticos consisten en la presentación de temas de investigación plasmadas en un póster. 
+description:  
 
 ---
-<p align="left">Las Competencias Boliviana de Posters Estadísticos consisten en la presentación
-de temas de investigación plasmadas en un póster.</p>
+Las Competencias Boliviana de Posters Estadísticos consisten en la presentación
+de temas de investigación plasmadas en un póster.
 
-<p align="left"> ## ¿Quiénes pueden participar?</p>
+## ¿Quiénes pueden participar?
 
 - Podran participar estudiantes de colegio y estudiantes del pregrado de las universidades publicas o privadas, con la orientación y el asesoramiento de profesores, especialistas o investigadores.
 - Los equipos de trabajo deben estar conformados por 2 a 5 estudiantes mas un docente 

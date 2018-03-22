@@ -1,5 +1,5 @@
 ---
-title: Reglamento y Normas
+title:  Normas para los participantes
 subtitle: 
 layout: default
 modal-id: 2
@@ -15,30 +15,29 @@ description:
 
 ---
 ### Normas para los participantes
-
-Las Competencias Boliviana de Posters Estadísticos consisten en la presentación
+La Competencia Boliviana de Posters Estadísticos, consisten en la presentación
 de temas de investigación plasmadas en un póster.
 
-### ¿Quiénes pueden participar?
+#### ¿Quiénes pueden participar?
 
-- Podran participar estudiantes de colegio y estudiantes del pregrado de las universidades publicas o privadas, con la orientación y el asesoramiento de profesores, especialistas o investigadores.
+- Podrán participar estudiantes de colegio y estudiantes del pregrado de las universidades públicas o privadas, con la orientación y el asesoramiento de profesores, especialistas o investigadores.
 
-- Los equipos de trabajo deben estar conformados por 2 a 5 estudiantes mas un docente 
+- Los equipos de trabajo deben estar conformados de 2 a 5 estudiantes más un docente o guía 
 
-- Los equipos pueden participar en una de las tres categorias:
+- Los equipos pueden participar en una de las siguientes categorías:
 	
-  1. Categoria Bernulli: Estudiantes de colegio nacidos en 2003 hacia adelante
+  1. Categoría Bernoulli: Estudiantes de colegio nacidos en 2003 hacia adelante
   
-  2. Categoria Poisson: Estudiantes de colegio nacidos en elos años 2000, 2001 y 2002 
+  2. Categoría Poisson: Estudiantes de colegio nacidos en elos años 2000, 2001 y 2002 
 	
-  3. Categoria Gauss: Estudiantes del pregrado de universidades sin limite de edad 
- 
-- La inscripcion es libre y gratuita
+  3. Categoría Gauss: Estudiantes del pregrado de universidades sin limite de edad 
 
-
+- Al enviar un póster, los estudiantes dan permiso para que su trabajo se muestre en la Conferencia del ISI en Malasia en agosto de 2019, eventos especiales, en publicaciones y material de promoción, y en formato electrónico en Internet
+  
+- La inscripción a la competencia es libre y gratuita
 
 
 ### Registro del poster
 
- El registro del equipo interesado en participar, no tiene costo alguno y debe ser realizado por el docente que forma parte del equipo de trabajo, en:
- https://alfabetizacion-estadistica-bolivia.github.io 
+ El registro de los equipos interesados en participar, debe ser realizado por el docente que forma parte del equipo de trabajo, en:
+ https://alfabetizacion-estadistica-bolivia.github.io

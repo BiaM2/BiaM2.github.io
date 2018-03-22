@@ -1,6 +1,6 @@
 ---
-title: Normas para la construcción del póster
-subtitle: Website Design
+title: Normas para la construcción del Póster
+subtitle: En este apartado encontrara información sobre las normas que se deben emplear en la construcción del Póster
 layout: default
 modal-id: 3
 date: 2014-07-16
@@ -10,15 +10,14 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: 
 
 ---
-### Normas para la construcción del póster 
-
+### Normas para la construcción del Póster 
 
 - No se requiere un tema o tema en particular para que un póster sea elegible. 
 
-- Los Posters deberían rereflejar o ilustrar el uso, análisis, interpretación y comunicación de estadísticas o estadísticas de información y hallazgos.
+- Los Posters deberían reflejar o ilustrar el uso, análisis, interpretación y comunicación de estadísticas o estadísticas de información y hallazgos.
 
 - Los datos utilizados pueden ser recopilados por los estudiantes o publicados previamente por otra persona o institución (si los datos son publicado, la fuente debe ser citada en el póster).
 
@@ -38,11 +37,9 @@ description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At du
 
 - Los posters recibidos después de la fecha límite establecida no serán considerados para la competencia
 
-- Al enviar un póster, los estudiantes dan permiso para que su trabajo se muestre en la Conferencia del ISI en Malasia en agosto de 2019, eventos especiales, en publicaciones y material de promoción, y en formato electrónico en Internet
+- Los posters no están pensados para ser vistos por mucho tiempo, pero deben:
 
-  Los posters no están pensados para ser vistos por mucho tiempo, pero deben:
-
-  * Contener como mínimo lo que se a estudiado,los resultados principales, la discusión sobre estos resultados y las principales conclusiones.
-  * Contener imágenes y gráﬁcos
-  * Los gráﬁcos deben tener un título y fuente, con un comentario.
-  * El texto empleado debe ser simple,explivando la historia de los datos y sus conclusiones
+  * Contener como mínimo lo que se ha estudiado, los resultados principales, la discusión sobre estos resultados y las principales conclusiones.
+  * Contener imágenes y gráficos
+  * Los gráficos deben tener un título y fuente, con un comentario.
+  * El texto empleado debe ser simple, explicando la historia de los datos y sus conclusiones

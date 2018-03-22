@@ -17,7 +17,7 @@ description:
 Las Competencias Boliviana de Posters Estadísticos consisten en la presentación
 de temas de investigación plasmadas en un póster.
 
-## ¿Quiénes pueden participar?
+### ¿Quiénes pueden participar?
 
 - Podran participar estudiantes de colegio y estudiantes del pregrado de las universidades publicas o privadas, con la orientación y el asesoramiento de profesores, especialistas o investigadores.
 - Los equipos de trabajo deben estar conformados por 2 a 5 estudiantes mas un docente 
@@ -32,7 +32,7 @@ de temas de investigación plasmadas en un póster.
 - La inscripcion es libre y gratuita
 
 
-## Características del póster 
+### Características del póster 
 
 
 - No se requiere un tema o tema en particular para que un póster sea elegible. 
@@ -56,7 +56,7 @@ de temas de investigación plasmadas en un póster.
   * El texto empleado debe ser simple,explivando la historia de los datos y sus conclusiones
 
 
-## Registro del poster
+### Registro del poster
 
  El registro del equipo interesado en participar, no tiene costo alguno y debe ser realizado por el docente que forma parte del equipo de trabajo, en:
  https://alfabetizacion-estadistica-bolivia.github.io 

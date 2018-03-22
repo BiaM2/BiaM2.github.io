@@ -1,7 +1,7 @@
 ---
 title: REGLAMENTO
 subtitle: 
-layout: default
+layout: post
 modal-id: 2
 date: 2018-03-22
 img: escape.png

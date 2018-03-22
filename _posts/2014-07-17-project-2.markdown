@@ -15,62 +15,48 @@ description: Las Competencias Boliviana de Posters Estadísticos consisten en la
 
 ---
 Las Competencias Boliviana de Posters Estadísticos consisten en la presentación
-de temas de investigación plasmadas en un póster, 
+de temas de investigación plasmadas en un póster.
 
-##¿Quiénes pueden participar?
+## ¿Quiénes pueden participar?
 
-- Podran participar estudiantes de
-colegio y estudiantes del pregrado de las universidades publicas o privadas, con la orientación 
-y el asesoramiento de profesores, especialistas o investigadores.
-
-	 Los equipos de trabajo deben estar conformados por 2 a 5 estudiantes mas un docente 
-	 Los equipos de trabajo pueden participar en una de las tres categorias:
+- Podran participar estudiantes de colegio y estudiantes del pregrado de las universidades publicas o privadas, con la orientación y el asesoramiento de profesores, especialistas o investigadores.
+- Los equipos de trabajo deben estar conformados por 2 a 5 estudiantes mas un docente 
+- Los equipos pueden participar en una de las tres categorias:
 	
-	1. Categoria Bernulli Estudiantes de colegio nacidos en 2003 hacia adelante
-2. Categoria Poisson Estudiantes de colegio nacidos en elos años 2000, 2001 y 2002 
-	3. Categoria Gauss] Estudiantes del pregrado de universidades sin limite de edad 
- La inscripcion es libre y gratuita
+  1. Categoria Bernulli Estudiantes de colegio nacidos en 2003 hacia adelante
+  
+  2. Categoria Poisson Estudiantes de colegio nacidos en elos años 2000, 2001 y 2002 
+	
+  3. Categoria Gauss Estudiantes del pregrado de universidades sin limite de edad 
+ 
+- La inscripcion es libre y gratuita
 
 
-Características del póster 
+## Características del póster 
 
 
-	 No se requiere un tema o tema en particular para que un póster sea elegible. 
- Los Posters deberían rereflejar o ilustrar el uso, análisis, interpretación y
-comunicación de estadísticas o estadísticas de información y hallazgos.
- Los datos utilizados pueden ser recopilados por los estudiantes o publicados previamente
-por otra persona o institución (si los datos son publicado, la fuente debe ser
-citada en el póster).
- Los posters pueden estar en cualquier idioma.
- Los posters no deben contener ninguna información sobre los estudiantes o escuelas que los envió.
- No se permiten posters de competiciones internacionales anteriores
- Los posters deben ser el diseño original y la creación de los estudiantes
- Los posters deben ser en una sola hoja: el tamaño es A1 (841mm x 594
-mm o 33.1 in x 23.4 in) y el tamaño máximo de archivo es de 10 MB en el caso de
-un póster electrónico.
+- No se requiere un tema o tema en particular para que un póster sea elegible. 
+- Los Posters deberían rereflejar o ilustrar el uso, análisis, interpretación y comunicación de estadísticas o estadísticas de información y hallazgos.
+- Los datos utilizados pueden ser recopilados por los estudiantes o publicados previamente por otra persona o institución (si los datos son publicado, la fuente debe ser citada en el póster).
+- Los posters pueden estar en cualquier idioma.
+- Los posters no deben contener ninguna información sobre los estudiantes o escuelas que los envió.
+- No se permiten posters de competiciones internacionales anteriores
+- Los posters deben ser el diseño original y la creación de los estudiantes
+- Los posters deben ser en una sola hoja: el tamaño es A1 (841mm x 594 mm o 33.1 in x 23.4 in) y el tamaño máximo de archivo es de 10 MB en el caso de un póster electrónico.
+- El tamaño de la fuente debería ser tal que si se imprimiera en A1, sería legible desde 2 metros de distancia.
+- Todas los posters pasan a ser propiedad del ISI y no serán devueltos
+- Los posters recibidos después de la fecha límite establecida no serán considerados para la competencia
+- Al enviar un póster, los estudiantes dan permiso para que su trabajo se muestre en la Conferencia del ISI en Malasia en agosto de 2019, eventos especiales, en publicaciones y material de promoción, y en formato electrónico en Internet
 
-El tamaño de la fuente debería ser tal que si se imprimiera en A1, sería legible desde
-2 metros de distancia.
+  Los posters no están pensados para ser vistos por mucho tiempo, pero deben:
 
-Todas los posters pasan a ser propiedad del ISI y no serán devueltos
- Los posters recibidos después de la fecha límite establecida no serán considerados
-para la competencia
- Al enviar un póster, los estudiantes dan permiso para que su trabajo se muestre
-en la Conferencia del ISI en Malasia en agosto de 2019, eventos especiales, en
-publicaciones y material de promoción, y en formato electrónico en Internet
-
-Los posters no están pensados para ser vistos por mucho tiempo, pero deben:
-
- Contener como mínimo lo que se a estudiado,los resultados principales, la
-discusión sobre estos resultados y las principales conclusiones.
-Contener imágenes y gráﬁcos
- Los gráﬁcos deben tener un título y fuente, con un comentario.
- El texto empleado debe ser simple,explivando la historia de los datos y sus conclusiones
+  * Contener como mínimo lo que se a estudiado,los resultados principales, la discusión sobre estos resultados y las principales conclusiones.
+  * Contener imágenes y gráﬁcos
+  * Los gráﬁcos deben tener un título y fuente, con un comentario.
+  * El texto empleado debe ser simple,explivando la historia de los datos y sus conclusiones
 
 
+## Registro del poster
 
-
-Registro del poster
-
- El registro del equipo interesado en participar, no tiene costo alguno y debe ser realizado por el docente que forma parte del equipo de trabajo, en https://alfabetizacion-estadistica-bolivia.
-github.io 
+ El registro del equipo interesado en participar, no tiene costo alguno y debe ser realizado por el docente que forma parte del equipo de trabajo, en:
+ https://alfabetizacion-estadistica-bolivia.github.io 

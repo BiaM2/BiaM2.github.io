@@ -1,5 +1,5 @@
 ---
-title: Golden
+title: Normas para la construcción del póster
 subtitle: Website Design
 layout: default
 modal-id: 3
@@ -13,3 +13,36 @@ category: Web Development
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
 
 ---
+### Normas para la construcción del póster 
+
+
+- No se requiere un tema o tema en particular para que un póster sea elegible. 
+
+- Los Posters deberían rereflejar o ilustrar el uso, análisis, interpretación y comunicación de estadísticas o estadísticas de información y hallazgos.
+
+- Los datos utilizados pueden ser recopilados por los estudiantes o publicados previamente por otra persona o institución (si los datos son publicado, la fuente debe ser citada en el póster).
+
+- Los posters pueden estar en cualquier idioma.
+
+- Los posters no deben contener ninguna información sobre los estudiantes o escuelas que los envió.
+
+- No se permiten posters de competiciones internacionales anteriores
+
+- Los posters deben ser el diseño original y la creación de los estudiantes
+
+- Los posters deben ser en una sola hoja: el tamaño es A1 (841mm x 594 mm o 33.1 in x 23.4 in) y el tamaño máximo de archivo es de 10 MB en el caso de un póster electrónico.
+
+- El tamaño de la fuente debería ser tal que si se imprimiera en A1, sería legible desde 2 metros de distancia.
+
+- Todas los posters pasan a ser propiedad del ISI y no serán devueltos
+
+- Los posters recibidos después de la fecha límite establecida no serán considerados para la competencia
+
+- Al enviar un póster, los estudiantes dan permiso para que su trabajo se muestre en la Conferencia del ISI en Malasia en agosto de 2019, eventos especiales, en publicaciones y material de promoción, y en formato electrónico en Internet
+
+  Los posters no están pensados para ser vistos por mucho tiempo, pero deben:
+
+  * Contener como mínimo lo que se a estudiado,los resultados principales, la discusión sobre estos resultados y las principales conclusiones.
+  * Contener imágenes y gráﬁcos
+  * Los gráﬁcos deben tener un título y fuente, con un comentario.
+  * El texto empleado debe ser simple,explivando la historia de los datos y sus conclusiones

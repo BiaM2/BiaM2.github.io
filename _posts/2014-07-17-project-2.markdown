@@ -8,8 +8,14 @@ img: escape.png
 thumbnail: escape-thumbnail.png
 alt: image-alt
 
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: Las Competencias Boliviana de Posters Estadísticos consisten en la presentación
+de temas de investigación plasmadas en un póster, 
 
+##¿Quiénes pueden participar?
+
+-Podran participar estudiantes de
+colegio y estudiantes del pregrado de las universidades publicas o privadas, con la orientación 
+y el asesoramiento de profesores, especialistas o investigadores.
 ---
 Las Competencias Boliviana de Posters Estadísticos consisten en la presentación
 de temas de investigación plasmadas en un póster, 

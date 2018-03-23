@@ -4,7 +4,7 @@ subtitle:
 layout: default
 modal-id: 4
 date: 2014-07-15
-img: 
+img: treehouse.png
 thumbnail: treehouse-thumbnail.png
 alt: image-alt
 project-date: April 2014
@@ -16,7 +16,9 @@ description:
 ### Premios
 
 Serán premiados los 3 primeros lugares en cada categoría, los premios consisten en:
+
 #### Categoría Bernoulli:
+
 - Primer lugar: 2000 Bs. + Material de patrocinadores.
 
 - Segundo lugar: 1000 Bs. + Material de patrocinadores.

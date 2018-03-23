@@ -14,3 +14,6 @@ description:
 
 ---
 ### PAUTAS PARA HACER UN POSTER ESTADISTICO
+
+url="http://BiaM2.github.io/img/poster/brasil.pdf&embedded=true" 
+style="width:500px; height:375px;" frameborder="0"></iframe>

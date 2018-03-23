@@ -1,5 +1,5 @@
 ---
-title:  Normas para los participantes
+title:  NORMAS PARA LOS PARTICIPANTES
 subtitle: 
 layout: default
 modal-id: 2
@@ -14,7 +14,8 @@ category: Web Development
 description:  
 
 ---
-### Normas para los participantes
+### NORMAS PARA LOS PARTICIPANTES
+
 La Competencia Boliviana de Posters Estadísticos, consisten en la presentación
 de temas de investigación plasmadas en un póster.
 

@@ -1,5 +1,5 @@
 ---
-title: Normas para la construcción del Póster
+title: NORMAS PARA LA CONSTRUCCIÓN DEL POSTER
 subtitle:
 layout: default
 modal-id: 3
@@ -13,7 +13,7 @@ category: Web Development
 description: 
 
 ---
-### Normas para la construcción del Póster 
+### NORMAS PARA LA CONSTRUCCIÓN DEL POSTER
 
 - No se requiere un tema o tema en particular para que un póster sea elegible. 
 

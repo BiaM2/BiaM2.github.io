@@ -14,13 +14,13 @@ description:
 ---
 ### POSTERS DE LA COMPETENCIA INTERNACIONAL PASADA
 <div class="container">
- <div class="row text-center">
+ <div class="row text-left">
                 <div class="col-md-6">
-                    <img class="img-rounded img-responsibe" src="img/poster/japon.jpg" alt="" width="250" height="350">
+                    <img class="img-rounded img-responsibe" src="img/poster/japon.jpg" alt="" width="350" height="450">
                     <h4 class="service-heading">1. Japon</h4>
                 </div>
                 <div class="col-md-6">
-                    <img class="img-rounded img-responsibe" src="img/poster/rusia.jpg" alt="" width="150" height="150">
+                    <img class="img-rounded img-responsibe" src="img/poster/rusia.jpg" alt="" width="450" height="350">
                     <h4 class="service-heading">2. Rusia</h4>
                 </div>
                
@@ -30,11 +30,11 @@ description:
 <div class="container">
  <div class="row text-center">
                 <div class="col-md-6">
-                    <img class="img-rounded img-responsibe" src="img/poster/mexico.jpg" alt="" width="150" height="150">
+                    <img class="img-rounded img-responsibe" src="img/poster/mexico.jpg" alt="" width="450" height="350">
                     <h4 class="service-heading">3. Mexico</h4>
                 </div>
                 <div class="col-md-6">
-                    <img class="img-rounded img-responsibe" src="img/poster/finland.jpg" alt="" width="150" height="150">
+                    <img class="img-rounded img-responsibe" src="img/poster/finland.jpg" alt="" width="450" height="350">
                      <h4 class="service-heading">4. Finlandia</h4>
                 </div>
                

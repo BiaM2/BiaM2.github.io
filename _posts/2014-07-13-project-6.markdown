@@ -13,3 +13,4 @@ category: Web Development
 description: 
 
 ---
+### PAUTAS PARA HACER UN POSTER ESTADISTICO

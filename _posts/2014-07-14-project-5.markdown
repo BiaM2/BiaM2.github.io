@@ -37,5 +37,5 @@ description:
                
             </div>
 			
-Para ver mas posters dirigete a la pagina: 
-<a href="https://iase-web.org/islp/Poster_Competition_2016-2017.php?p=Posters">
+Para ver mas posters puedes visitar la pagina: 
+<a href="http://iase-web.org/islp/Poster_Competition_2016-2017.php?p=Posters"> Aqui </a>

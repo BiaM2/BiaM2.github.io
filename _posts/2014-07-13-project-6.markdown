@@ -1,5 +1,5 @@
 ---
-title: PAUTAS PARA HACER UN POSTER ESTADISTICO
+title: PAUTAS PARA HACER UN POSTER ESTADÍSTICO
 subtitle: 
 layout: default
 modal-id: 6

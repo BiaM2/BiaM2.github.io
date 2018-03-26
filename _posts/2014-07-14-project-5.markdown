@@ -15,7 +15,6 @@ description:
                     <img class="img-rounded img-responsibe" src="img/poster/japon.jpg" alt="" width="350" height="450">
                     <h4 class="service-heading">1. Japon</h4>
                 </div>
-				<br>
                 <div class="col-md-6">
                     <img class="img-rounded img-responsibe" src="img/poster/rusia.jpg" alt="" width="360" height="260">
                     <h4 class="service-heading">2. Rusia</h4>
@@ -23,16 +22,17 @@ description:
                
             </div>	
 			
+<br>
 
  <div class="row text-center">
                 <div class="col-md-6">
                     <img class="img-rounded img-responsibe" src="img/poster/mexico.jpg" alt="" width="360" height="260">
-                    <h4 class="service-heading"><p>3. Mexico</h4></p>
+                    <h4 class="service-heading"><3. Mexico</h4>
 					
                 </div>
                 <div class="col-md-6">
                     <img class="img-rounded img-responsibe" src="img/poster/finland.jpg" alt="" width="360" height="260">
-                     <h4 class="service-heading"> <p>4. Finlandia</h4> </p>
+                     <h4 class="service-heading"> 4. Finlandia</h4> 
                 </div>
                
             </div>

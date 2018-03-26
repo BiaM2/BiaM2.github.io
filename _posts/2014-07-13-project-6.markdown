@@ -11,3 +11,8 @@ description:
 ---
 <embed src="http://BiaM2.github.io/img/poster/Brazil.pdf" width="350" height="350" href="http://BiaM2.github.io/img/poster/Brazil.pdf"> 
 </embed>
+<html>
+<body>
+<embed src="img/guia.pdf" width="350" height="350"
+</body>
+</html>

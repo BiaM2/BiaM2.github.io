@@ -14,7 +14,6 @@ category: Web Development
 description:  
 
 ---
-### NORMAS PARA LOS PARTICIPANTES
 
 La Competencia Boliviana de Posters Estadísticos, consisten en la presentación
 de temas de investigación plasmadas en un póster.
@@ -38,7 +37,7 @@ de temas de investigación plasmadas en un póster.
 - La inscripción a la competencia es libre y gratuita
 
 
-### Registro del poster
+#### Registro del poster
 
  El registro de los equipos interesados en participar, debe ser realizado por el docente que forma parte del equipo de trabajo, en:
  https://alfabetizacion-estadistica-bolivia.github.io

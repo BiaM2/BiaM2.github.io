@@ -13,7 +13,5 @@ category: Web Development
 description: 
 
 ---
-### PAUTAS PARA HACER UN POSTER ESTADISTICO
-
-
-<embed src="http://BiaM2.github.io/img/poster/Brazil.pdf" width="350" height="350" href="http://BiaM2.github.io/img/poster/Brazil.pdf"></embed>
+<embed src="http://BiaM2.github.io/img/poster/Brazil.pdf" width="350" height="350" href="http://BiaM2.github.io/img/poster/Brazil.pdf"> 
+</embed>

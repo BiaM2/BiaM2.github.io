@@ -8,3 +8,8 @@ thumbnail: dreams-thumbnail.png
 description:
 
 ---
+<html>
+<body>
+<embed src="img/cartel.pdf" width="950" height="650">
+</body>
+</html>

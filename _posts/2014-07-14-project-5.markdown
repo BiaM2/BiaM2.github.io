@@ -12,11 +12,11 @@ description:
 
  <div class="row text-left">
                 <div class="col-md-6">
-                    <img class="img-rounded img-responsibe" src="img/poster/japon.jpg" alt="" width="350" height="450">
+                    <img class="img-rounded img-responsibe" src="img/poster/japon.jpg" alt="" width="300" height="350">
                     <h4 class="service-heading">1. Japon</h4>
                 </div>
                 <div class="col-md-6">
-                    <img class="img-rounded img-responsibe" src="img/poster/rusia.jpg" alt="" width="360" height="260">
+                    <img class="img-rounded img-responsibe" src="img/poster/rusia.jpg" alt="" width="380" height="300">
                     <h4 class="service-heading">2. Rusia</h4>
                 </div>
                

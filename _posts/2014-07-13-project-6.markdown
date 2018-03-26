@@ -12,6 +12,6 @@ description:
 
 <html>
 <body>
-<embed src="img/guia.pdf" width="350" height="350">
+<embed src="img/guia.pdf" width="550" height="650">
 </body>
 </html>

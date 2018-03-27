@@ -17,56 +17,36 @@ description:
 </html>
 
 
-<html>
+
 <body>
-<form name="contactform" method="post" action="send_form_email.php"> 
-<table width="450px"><!---Este tamaño en px es personalizable -->
-<tr>
- <td valign="top">
-  <label for="first_name">Nombre *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="first_name" maxlength="50" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="last_name">Apellido *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="last_name" maxlength="50" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="email">E-mail *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="email" maxlength="80" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="telephone">Teléfono</label>
- </td>
- <td valign="top">
-  <input  type="text" name="telephone" maxlength="30" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="message">Mensaje *</label>
- </td>
- <td valign="top">
-  <textarea  name="message" maxlength="1000" cols="25" rows="6"></textarea>
- </td>
-</tr>
-<tr>
- <td colspan="2" style="text-align:center">
-  <input type="submit" value="enviar">   
- </td>
-</tr>
-</table>
-</form>
+<form id="contacto" name="contacto" method="post" action="mail/enviar.php"> 
+<p align="left"> 
+<label><strong>Nombre: </strong> 
+<input name="nombre" type="text" id="nombre" size="35"/> 
+</label> 
+</p> 
+<p align="left"> 
+<label><strong>Empresa:</strong> 
+<input name="empresa" type="text" id="empresa" size="35"/> 
+</label> 
+</p> 
+<p align="left"> 
+<label><strong> E-mail: </strong> 
+<input name="mail" type="text" id="mail" size="35"/> 
+</label> 
+</p> 
+<p align="left"> 
+<label><strong>Mensaje:</strong><br /> 
+
+<textarea name="mensaje" cols="40" rows="8" id="mensaje" ></textarea> 
+</label> 
+</p> 
+<p align="left"> 
+<input type="submit" name="submit" value="Enviar" /> 
+<label> 
+<input type="reset" name="Borrar" id="Borrar" value="Restablecer" /> 
+</label> 
+</p> 
+</form> 
 </body>
-</html>
+

@@ -63,7 +63,7 @@ description:
 </tr>
 <tr>
  <td colspan="2" style="text-align:center">
-  <input type="submit" value="Submit">   <a href="http://biam2.github.io/send_form_email.php">Enviar</a>
+  <input type="submit" value="Submit">   <a href="http://BiaM2.github.io/mail/send_form_email.php">Enviar</a>
  </td>
 </tr>
 </table>

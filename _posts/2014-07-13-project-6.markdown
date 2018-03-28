@@ -19,7 +19,7 @@ description:
 
 
 <body>
-<form id="contacto" name="contacto" method="post" action="mail/enviar.php"> 
+<form id="contacto" name="contacto" method="post" action="https://getsimpleform.com/messages?form_api_token=d4adadd6d2b60663120c126755c818ee"> 
 <p align="left"> 
 <label><strong>Nombre: </strong> 
 <input name="nombre" type="text" id="nombre" size="35"/> 

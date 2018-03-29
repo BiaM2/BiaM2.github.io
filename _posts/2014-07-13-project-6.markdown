@@ -18,35 +18,20 @@ description:
 
 
 
-<body>
-<form id="contacto" name="contacto" method="post" action="https://getsimpleform.com/messages?form_api_token=d4adadd6d2b60663120c126755c818ee"> 
-<p align="left"> 
-<label><strong>Nombre: </strong> 
-<input name="nombre" type="text" id="nombre" size="35"/> 
-</label> 
-</p> 
-<p align="left"> 
-<label><strong>Empresa:</strong> 
-<input name="empresa" type="text" id="empresa" size="35"/> 
-</label> 
-</p> 
-<p align="left"> 
-<label><strong> E-mail: </strong> 
-<input name="mail" type="text" id="mail" size="35"/> 
-</label> 
-</p> 
-<p align="left"> 
-<label><strong>Mensaje:</strong><br /> 
-
-<textarea name="mensaje" cols="40" rows="8" id="mensaje" ></textarea> 
-</label> 
-</p> 
-<p align="left"> 
-<input type="submit" name="submit" value="Enviar" /> 
-<label> 
-<input type="reset" name="Borrar" id="Borrar" value="Restablecer" /> 
-</label> 
-</p> 
-</form> 
-</body>
+<form action="http://getsimpleform.com/messages?form_api_token=d4adadd6d2b60663120c126755c818ee" method="post">
+  <input type='hidden' name='redirect_to' value='http://minhajuddin.com/thank-you' />
+  <label for='name'>Name</label>
+  <br />
+  <input type='text' id='name' name='name' placeholder='Your Name' />
+  <br />
+  <label for='email'>Email</label>
+  <br />
+  <input type='text' id='email' name='email' placeholder='Your Email' />
+  <br />
+  <label for='email'>Message</label>
+  <br />
+  <textarea id='message' name='message' placeholder='Message' rows='8' cols='50'></textarea>
+  <br />
+  <input type='submit' value='Submit' />
+</form>
 

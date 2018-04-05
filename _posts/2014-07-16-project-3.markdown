@@ -36,4 +36,6 @@ description:
   * Contener como mínimo lo que se ha estudiado, los resultados principales, la discusión sobre estos resultados y las principales conclusiones.
   * Contener imágenes y gráficos
   * Los gráficos deben tener un título y fuente, con un comentario.
-  * El texto empleado debe ser simple, explicando la historia de los datos y sus conclusiones
+  * El texto empleado debe ser simple, explicando la historia de los datos y sus conclusiones.
+  
+- Los poster digitales deben ser enviados al correo  

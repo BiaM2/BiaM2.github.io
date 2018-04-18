@@ -1,29 +1,19 @@
-<div id="footerwrap">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4">
-                <h4>Nosotros</h4>
-                <div class="hline-w"></div>
-                <p>{{ site.about }}</p>
-            </div>
-            <div class="col-lg-4">
-                <h4>ARU en las redes</h4>
-                <div class="hline-w"></div>
-                <p>
-                    {% for network in site.social %}
-                        <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>
-                    {% endfor %}
-                </p>
-            </div>
-            <div class="col-lg-4">
-                <h4>Nuestra Oficina</h4>
-                <div class="hline-w"></div>
-                <p>
-                    {% for line in site.address.first.lines %}
-                        {{ line }} <br>
-                    {% endfor %}
-                </p>
-            </div>
-        </div><! --/row -->
-    </div><! --/container -->
-</div><! --/footerwrap -->
+<!-- footer Start -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer-manu">
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="{{ site.baseurl }}/contact">Contact us</a></li>
+            <li><a href="#">How it works</a></li>
+            <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
+            <li><a href="#">Terms</a></li>
+          </ul>
+        </div>
+        <p>Copyright &copy; Design &amp; Developed by <a href="http://www.themefisher.com">Themefisher</a>. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>

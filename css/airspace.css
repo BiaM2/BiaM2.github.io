@@ -120,9 +120,9 @@ font header .navbar-default .navbar-nav li a:hover {
 #slider .block {
   color: #E3E3E4;
 }
-#slider .block h1 {
+#slider .block h3 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 250;
+  font-weight: 100;
   font-size: 45px;
   line-height: 60px;
   letter-spacing: 10px;

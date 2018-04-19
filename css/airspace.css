@@ -122,18 +122,18 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #slider .block h1 {
   font-family: "Arial Black";
-  font-weight: 250;
-  font-size: 40px;
+  font-weight: 150;
+  font-size: 42px;
   line-height: 55px;
   letter-spacing: 9px;
   padding-bottom: 45px;
 }
 
 #slider .block p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   font-size: 28px;
   line-height: 40px;
-   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
   letter-spacing: 3px;
 }
 /*--

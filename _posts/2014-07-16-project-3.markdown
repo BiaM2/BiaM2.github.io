@@ -12,4 +12,10 @@ Los datos utilizados en la construcción del poster pueden ser:
 
 - <b> Recopilados por los mismos estudiantes:</b> Los estudiantes pueden recopilar datos de diversos temas relacionados con su unidad educativa o comunidad.  
 
-- <b> Publicados previamente por otra persona o institución:</b> Existen diversas fuentes de datos, principal mente el sitio web del Instituto Nacional de Estadística
+- <b> Publicados previamente por otra persona o institución:</b> Existen diversas fuentes de información con temáticas variadas que se encuentran al alcance de todos, es decir se puede tener acceso a las bases de datos resultantes.
+
+En muchos casos las bases de datos pueden ser descargadas desde el sitio web de la institución que realizo el estudio.
+
+A continuación se presenta una lista con los nombres de la instituciones y los sitios web de las mismas , en las que se pueden obtener algunas bases de datos:
+ 
+<b>1. Instituto Nacional de Estadística "INE":</b> <a href="https://www.ine.gob.bo/">https://www.ine.gob.bo/ </a>

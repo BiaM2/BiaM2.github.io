@@ -1,37 +1,46 @@
 ---
-title: PAUTAS PARA HACER UN POSTER ESTADÍSTICO
+title: POSTERS DE LA COMPETENCIA INTERNACIONAL PASADA
 subtitle: 
 layout: default
 modal-id: 6
 date: 2014-07-15
-thumbnail: roundicons-thumbnail.png
+thumbnail: startup-framework-thumbnail.png
 
 description: 
 
 ---
 
-<html>
-<body>
-<embed src="img/guia.pdf" width="950" height="650">
-</body>
-</html>
+Para ver mas posters puedes visitar la pagina: 
+<a href="http://iase-web.org/islp/Poster_Competition_2016-2017.php?p=Posters"> http://iase-web.org/islp/Poster_Competition_2016-2017.php?p=Posters </a>
 
+<br>
 
+ <div class="row text-left">
+                <div class="col-md-6">
+                    <img class="img-rounded img-responsibe" src="img/poster/japon.jpg" alt="" width="300" height="350">
+                    <h4 class="service-heading">1. Japon</h4>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-rounded img-responsibe" src="img/poster/rusia.jpg" alt="" width="380" height="300">
+                    <h4 class="service-heading">2. Rusia</h4>
+                </div>
+               
+            </div>	
+			
+<br>
 
-<form action="http://getsimpleform.com/messages?form_api_token=d4adadd6d2b60663120c126755c818ee" method="post">
-  <input type='hidden' name='redirect_to' value='http://minhajuddin.com/thank-you' />
-  <label for='name'>Name</label>
-  <br />
-  <input type='text' id='name' name='name' placeholder='Your Name' />
-  <br />
-  <label for='email'>Email</label>
-  <br />
-  <input type='text' id='email' name='email' placeholder='Your Email' />
-  <br />
-  <label for='email'>Message</label>
-  <br />
-  <textarea id='message' name='message' placeholder='Message' rows='8' cols='50'></textarea>
-  <br />
-  <input type='submit' value='Submit' />
-</form>
+ <div class="row text-center">
+                <div class="col-md-6">
+                    <img class="img-rounded img-responsibe" src="img/poster/mexico.jpg" alt="" width="360" height="260">
+                    <h4 class="service-heading">3. Mexico</h4>
+					
+                </div>
+                <div class="col-md-6">
+                    <img class="img-rounded img-responsibe" src="img/poster/finland.jpg" alt="" width="360" height="260">
+                     <h4 class="service-heading"> 4. Finlandia</h4> 
+                </div>
+               
+            </div>
+			
+
 

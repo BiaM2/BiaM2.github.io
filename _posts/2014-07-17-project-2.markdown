@@ -18,7 +18,7 @@ description:
 La Competencia Boliviana de Posters Estadísticos, consisten en la presentación
 de temas de investigación plasmadas en un póster.
 
-<h2>¿Quiénes pueden participar? </h2>
+<b>¿Quiénes pueden participar? </b>
 
 - Podrán participar estudiantes de colegio y estudiantes del pregrado de las universidades públicas o privadas, con la orientación y el asesoramiento de profesores, especialistas o investigadores.
 
@@ -37,7 +37,7 @@ de temas de investigación plasmadas en un póster.
 - La inscripción a la competencia es libre, gratuita y debe ser realizado por el docente o guia que forma parte del equipo de trabajo.
 
 
- <h2> ¿Que características debe tener el poster? </h2>
+ <b> ¿Que características debe tener el poster? </b>
 
 
 - No se requiere un tema o tema en particular para que un póster sea elegible. 

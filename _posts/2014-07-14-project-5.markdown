@@ -28,7 +28,7 @@ Serán premiados los 3 primeros lugares en cada categoría, los premios consiste
 
 - Tercer lugar: Material de patrocinadores.
 
-<h2>Categoría Gauss:</h2>
+<h4>Categoría Gauss:</h4>
 
 - Primer lugar: 2000 Bs. + Material de patrocinadores.
 

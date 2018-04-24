@@ -1,5 +1,5 @@
 ---
-title:  NORMAS DE PARTICIPACIÓN
+title:  NORMAS DE LA COMPETENCIA
 subtitle: 
 layout: default
 modal-id: 2
@@ -18,7 +18,7 @@ description:
 La Competencia Boliviana de Posters Estadísticos, consisten en la presentación
 de temas de investigación plasmadas en un póster.
 
-#### ¿Quiénes pueden participar?
+<b> <h2>  ¿Quiénes pueden participar? </h2> </b>
 
 - Podrán participar estudiantes de colegio y estudiantes del pregrado de las universidades públicas o privadas, con la orientación y el asesoramiento de profesores, especialistas o investigadores.
 
@@ -37,7 +37,7 @@ de temas de investigación plasmadas en un póster.
 - La inscripción a la competencia es libre, gratuita y debe ser realizado por el docente o guia que forma parte del equipo de trabajo.
 
 
-#### Normas para la construcción del poster
+<b> <h2> ¿Que características debe tener el poster? </h2></b>
 
 
 - No se requiere un tema o tema en particular para que un póster sea elegible. 
@@ -65,9 +65,13 @@ de temas de investigación plasmadas en un póster.
 - Los posters no están pensados para ser vistos por mucho tiempo, pero deben:
 
   * Contener como mínimo lo que se ha estudiado, los resultados principales, la discusión sobre estos resultados y las principales conclusiones.
+  
   * Contener imágenes y gráficos
+  
   * Los gráficos deben tener un título y fuente, con un comentario.
+  
   * El texto empleado debe ser simple, explicando la historia de los datos y sus conclusiones.
+  
   
 - Los poster en formato digital o electrónico deben ser enviados al correo <b> islp.bolivia@gmail.com </b> 
 

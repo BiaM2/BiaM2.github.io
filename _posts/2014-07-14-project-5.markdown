@@ -12,7 +12,7 @@ description:
 			
 Serán premiados los 3 primeros lugares en cada categoría, los premios consisten en:
 
-<h2>Categoría Bernoulli:</h2>
+<h4>Categoría Bernoulli:</h4>
 
 - Primer lugar: 2000 Bs. + Material de patrocinadores.
 
@@ -20,7 +20,7 @@ Serán premiados los 3 primeros lugares en cada categoría, los premios consiste
 
 - Tercer lugar: Material de patrocinadores.
 
-<h2> Categoría Poisson:</h2>
+<h4> Categoría Poisson:</h4>
 
 - Primer lugar: 2000 Bs. + Ingreso directo a la Carrera de Estadística de la Universidad Mayor de San Andres + Material de patrocinadores.
 

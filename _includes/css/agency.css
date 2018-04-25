@@ -296,8 +296,8 @@ header .intro-text .intro-heading {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-size: 45px;
-    font-weight: 650;
-    line-height: 45px;
+    font-weight: 700;
+    line-height: 50px;
 }
 
 @media(min-width:768px) {

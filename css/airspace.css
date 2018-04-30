@@ -434,7 +434,7 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-top: 0;
   text-transform: capitalize;
 }
-#global-header .block p {
+#global-header1 .block p {
   font-size: 16px;
   font-weight: 300;
   letter-spacing: 1px;

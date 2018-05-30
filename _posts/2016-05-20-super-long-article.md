@@ -15,11 +15,11 @@ El equipo de la unidad de datos aprovecho esta oportunidad para dar a conocer an
 
  <div class="row text-left">
                 <div class="col-md-6">
-                    <img class="img-rounded img-responsibe" src="img/Notas/0001.jpg" alt="" width="300" height="350">
+                    <img class="img-rounded img-responsibe" src="{{ site.baseurl }}/img/Notas/0001.jpg" alt="" width="300" height="350">
                     <h4 class="service-heading">Imagen 1</h4>
                 </div>
                 <div class="col-md-6">
-                    <img class="img-rounded img-responsibe" src="img/Notas/0002.jpg" alt="" width="380" height="300">
+                    <img class="img-rounded img-responsibe" src="{{ site.baseurl }}/img/Notas/0002.jpg" alt="" width="380" height="300">
                     <h4 class="service-heading">Imagen 1</h4>
                 </div>
                
@@ -29,8 +29,8 @@ El equipo de la unidad de datos aprovecho esta oportunidad para dar a conocer an
 
 <div class="row text-left">
                 <div class="col-md-12">
-                    <img class="img-rounded img-responsibe" src="img/Notas/0003.jpg" alt="" width="300" height="350">
-                    <h4 class="service-heading">1. Japon</h4>
+                    <img class="img-rounded img-responsibe" src="{{ site.baseurl }}/img/Notas/0003.jpg" alt="" width="300" height="350">
+                    <h4 class="service-heading">Imagen 3</h4>
                 </div>
 </div>	
 

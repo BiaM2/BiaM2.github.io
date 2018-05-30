@@ -11,12 +11,39 @@ El evento se realizó el viernes 25 de mayo en inmediaciones de la plaza del Bic
 
 El equipo de la unidad de datos aprovecho esta oportunidad para dar a conocer ante los concurrentes los pormenores de la **Competencia Boliviana de Posters Estadísticos 2018-12019**; durante el desarrollo de esta actividad se pudo apreciar el interés de los estudiantes de diversos colegios por esta actividad, con esta grata experiencia esperamos ansiosamente el lanzamiento oficial de la Competencia de posters.   
 
- <section id="fotos">
+<br>
+
+ <div class="row text-left">
+                <div class="col-md-6">
+                    <img class="img-rounded img-responsibe" src="img/Notas/0001.jpg" alt="" width="300" height="350">
+                    <h4 class="service-heading">Imagen 1</h4>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-rounded img-responsibe" src="img/Notas/0002.jpg" alt="" width="380" height="300">
+                    <h4 class="service-heading">Imagen 1</h4>
+                </div>
+               
+            </div>	
+			
+<br>
+
+<div class="row text-left">
+                <div class="col-md-12">
+                    <img class="img-rounded img-responsibe" src="img/Notas/0003.jpg" alt="" width="300" height="350">
+                    <h4 class="service-heading">1. Japon</h4>
+                </div>
+</div>	
+
+
+
+
+
 <div class="container"> 
 <div class="row text-center"> 
 
 <div class="col-md-3">
 <img class="img-rounded img-responsibe" src="{{ site.baseurl }}/img/Notas/0001.jpg" alt="" width="200" height="266">
+ <h4 class="service-heading">1. Bernoulli</h4>
 </div>
 
 
@@ -30,4 +57,4 @@ El equipo de la unidad de datos aprovecho esta oportunidad para dar a conocer an
 
 </div>   
 </div>
- </section>
+

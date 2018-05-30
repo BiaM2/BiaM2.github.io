@@ -16,16 +16,16 @@ El equipo de la unidad de datos aprovecho esta oportunidad para dar a conocer an
 <div class="row text-center"> 
 
 <div class="col-md-3">
-<img class="img-thumbnail img-responsibe" src="{{ site.baseurl }}/img/Notas/0001.jpg" alt="" width="200" height="266">
+<img class="img-rounded img-responsibe" src="{{ site.baseurl }}/img/Notas/0001.jpg" alt="" width="200" height="266">
 </div>
 
 
 <div class="col-md-6">
-<img class="img-responsibe" src="{{ site.baseurl }}/img/Notas/0003.jpg" alt="" width="200" height="266">
+<img class="img-responsibe" src="{{ site.baseurl }}/img/Notas/0003.jpg" alt="" width="180" height="240">
 </div>
 
 <div class="col-md-3">
-<img class="img-rounded img-responsibe" src="{{ site.baseurl }}/img/Notas/0002.jpg" alt="" width="200" height="266">
+<img class="img-rounded img-responsibe" src="{{ site.baseurl }}/img/Notas/0002.jpg" alt="" width="200" height="250">
 </div>
 
 </div>   

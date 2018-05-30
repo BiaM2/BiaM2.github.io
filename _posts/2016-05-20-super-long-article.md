@@ -29,7 +29,7 @@ El equipo de la unidad de datos aprovecho esta oportunidad para dar a conocer an
 
 <div class="row text-center">
                 <div class="col-md-12">
-                    <img class="img-rounded img-responsibe" src="{{ site.baseurl }}/img/Notas/0003.jpg" alt="" width="300" height="450">
+                    <img class="img-rounded img-responsibe" src="{{ site.baseurl }}/img/Notas/0003.jpg" alt="" width="300" height="550">
                    
                 </div>
 </div>	

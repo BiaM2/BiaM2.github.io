@@ -14,7 +14,7 @@ El equipo de la unidad de datos aprovecho esta oportunidad para dar a conocer an
 <div class="container">
  <div class="row">
 <div class="col-md-4">
-<img class="img-circle img-responsibe" src="{{ site.baseurl }}/img/laura.jpg" alt="" width="100" height="390">
+<img class="img-circle img-responsibe" src="{{ site.baseurl }}/img/laura.jpg" alt="" width="200" height="266">
 </div>
 </div>
 </div>

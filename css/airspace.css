@@ -422,7 +422,7 @@ font header .navbar-default .navbar-nav li a:hover {
   opacity: 0.1;
 }
 #global-header .block {
-  color: #E3E3E4;
+  color: #000000;
   margin: 0 auto;
   padding-left: 90px;
   text-align: center;
@@ -441,7 +441,9 @@ font header .navbar-default .navbar-nav li a:hover {
   letter-spacing: 1px;
   word-spacing: 3px;
 }
-
+/*--
+	Slider Noticias
+--*/
 #global-header1 {
   background: url("../img/slider-bg2.jpg") no-repeat;
   background-size: cover;
@@ -482,6 +484,9 @@ font header .navbar-default .navbar-nav li a:hover {
   letter-spacing: 1px;
   word-spacing: 3px;
 }
+/*--
+	Slider Servicios
+--*/
 #global-header2 {
   background: url("../img/slider-bg3.jpg") no-repeat;
   background-size: cover;
@@ -522,6 +527,11 @@ font header .navbar-default .navbar-nav li a:hover {
   letter-spacing: 1px;
   word-spacing: 3px;
 }
+
+/*--
+	Slider Contacto
+--*/
+
 #global-header3{
   background: url("../img/slider-bg4.jpg") no-repeat;
   background-size: cover;

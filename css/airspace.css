@@ -470,13 +470,14 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #global-header1 .block h1 {
   font-weight: 100;
-  font-size: 50px;
+  font-size: 48px;
   letter-spacing: 6px;
   padding-bottom: 15px;
   margin-top: 0;
   text-transform: capitalize;
 }
 #global-header1 .block p {
+ font-family: "Arial Black";
   font-size: 22px;
   font-weight: 300;
   letter-spacing: 1px;

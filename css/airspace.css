@@ -469,9 +469,8 @@ font header .navbar-default .navbar-nav li a:hover {
   text-align: center;
 }
 #global-header1 .block h1 {
- font-family: "Arial Black";
   font-weight: 100;
-  font-size: 42px;
+  font-size: 48px;
   letter-spacing: 6px;
   padding-bottom: 15px;
   margin-top: 0;

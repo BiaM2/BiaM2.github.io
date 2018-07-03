@@ -5,6 +5,6 @@ subtitle:
 date: 05-06-2018
 author: "Unidad de Datos"
 ---
- El 29 de junio del año en curso, es el dia elegido para realizar el lanzamiento oficial de la "Competencia Boliviana de Posters Estadísticos 2018-2019"; en esta su primera versión  la  competencia se encuentra bajo la  organización del Instituto de Nacional de Estadística INE, Carrera de Estadística de la UMSA y Fundación ARU.
+ El 5 de julio se realizara el lanzamiento oficial de la "Competencia Boliviana de Posters Estadísticos 2018-2019"; en esta su primera versión  la  competencia se encuentra bajo la  organización del Instituto de Nacional de Estadística INE y Fundación ARU.  EL acto de lanzamiento se realizara en el auditorio Jorge Félix Ballivian del Instituto Nacional de Estadística,  ubicado en la Avenida José Carrasco Nº 1391
  
- Fundación ARU delega a La Unidad de Datos la responsabilidad de coordinar las futuras actividades relacionadas con la competencia, además también será la encargada  de la inscripción de los participantes y la recepción de los trabajos.
+ Fundación ARU comisiona a La Unidad de Datos la responsabilidad de coordinar las futuras actividades relacionadas con la competencia, además también serán responsables de la inscripción de los equipos participantes y la recepción de los trabajos.

@@ -1,0 +1,133 @@
+<div class="row contract-stats">
+    <div class="col-md-12">
+        <p class="small">Etapa</p>
+        <p class="semi-bold">Implementación</p>
+    </div>
+</div>
+<div class="row contract-stats">
+    <div class="col-md-12">
+        <p class="small">Comprador</p>
+        <p class="semi-bold">{{ ocds.buyer.name }}</p>
+    </div>
+</div>
+<div class="row contract-stats no-border">
+    <div class="col-md-5 col-md-offset-4">
+
+        <p class="small">Descargar datos abiertos</p>
+        <a href="{{ links.json.url }}" download="json" title="Archivo JSON del proceso de contratación bajo el EDCA"><span class="label" data-format="json">JSON</span></a>
+        <a href="{{ links.xlsx.url }}" download="xlsx" title="Archivo XLSX del proceso de contratación bajo el EDCA"><span class="label" data-format="xlsx">XLSX</span></a>
+        <a href="{{ links.xlsxAPP.url }}" download="xlsx" title="Archivo XLSX del proceso de contratación bajo el EDCA-APP"><span class="label" data-format="xlsx">XLSX</span></a>
+
+    </div>
+    <div class="col-md-3">
+        <p class="small">Descargar contrato</p>
+        <a href="{{links.pdf.url}}" download="pdf">
+            <span class="label" data-format="pdf">PDF</span>
+        </a>
+
+    </div>
+</div>
+<p class="small">Procesos</p>
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true" style="padding-bottom: 60px">
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+                <a class="accordion-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    Hitos
+                </a>
+            </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body">
+                {{#if implementation.milestones}}
+                    {{#implementation.milestones }}
+                        <strong> {{title}} </strong>
+                        <ul>
+                            <!-- <li>{{id}}</li> -->
+                            <li>Descripción: {{description}} </li>
+                            <li>Fecha de vencimiento: {{dueDate}} </li>
+                            <!-- <li>{{dateModified}} </li> -->
+                            {{#ifCond status 'scheduled'}}
+                                <li>Estado: Programado</li>
+                            {{else}}
+                                {{#ifCond status 'met'}}
+                                    <li>Estado: Cumplido</li>
+                                {{else}}
+                                    <li>Estado: {{status}}</li>
+                                {{/ifCond}}
+                            {{/ifCond}}
+                        </ul>
+                    {{/implementation.milestones }}
+                {{else}}
+                    <p>
+                        <strong>
+                            No aplica
+                        </strong>
+                    </p>
+                {{/if}}
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingTwo">
+            <h4 class="panel-title">
+                <a class="accordion-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Transacciones
+                </a>
+            </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+            <div class="panel-body">
+
+                {{#if implementation.transactions}}
+                    {{#implementation.transactions}}
+                        <!-- <strong> Transacción {{id}} </strong> -->
+                        {{#if implementation.transactions}}
+                                <!-- <strong> Transacción {{id}} </strong> -->
+                                <ul>
+                                    <li>Origen: {{source}}</li>
+                                    <li>Fecha de implementación: {{ date }}</li>
+                                    <li>Monto: {{value.amount }}</li>
+                                    <li>Moneda: {{ value.currency }}</li>
+                                </ul>
+                        {{else}}
+                            <p class="semi-bold">
+                                No aplica, por tratarse de una Asociación Público-Privada (APP) autofinanciada, la cual es definida como un proyecto cuyos recursos para su desarrollo y ejecución provienen en su totalidad de aportaciones distintas a numerario (Artículo 3, inciso c del Reglamento de la Ley Federal de APP) este proyecto no cuenta con una fuente de recursos presupuestaria
+                            </p>
+                        {{/if}}
+                    {{/implementation.transactions}}
+                {{else}}
+                    <p class="semi-bold">
+                        En proceso
+                    </p>
+                {{/if}}
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+            <h4 class="panel-title">
+                <a class="accordion-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Documentos
+                </a>
+            </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div class="panel-body">
+                {{#if implementation.documents}}
+                    {{#implementation.documents}}
+                        <strong>{{ title }}</strong>
+                        <ul>
+                            <li> Descripción: {{ description }}</li>
+                            <li> URL: <a href="{{ url }}" target="_blank">{{ url }}</a></li>
+                        </ul>
+                    {{/implementation.documents}}
+                {{else}}
+                    <p>
+                        <strong>En proceso</strong>
+                    </p>
+                {{/if}}
+            </div>
+        </div>
+    </div>
+</div>

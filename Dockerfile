@@ -1,31 +1,22 @@
 FROM node:argon
 
-WORKDIR /edca-dashboard
+# Create the application directory
+RUN mkdir -p /usr/src/app
+WORKDIR /usr/src/app
 
-ADD . /edca-dashboard
+# Bundle app source
+COPY . /usr/src/app
+ADD commands/start.sh  /usr/src/app/start.sh
+RUN rm -rf node_modules
+RUN chmod +x /usr/src/app/start.sh
+RUN chmod +x /usr/src/app/commands/replace_env.sh
 
 # Install app dependencies
 RUN npm install
 RUN npm install -g bower
+RUN bower --allow-root install
 
-# Instal bower components public
-WORKDIR /edca-dashboard/public
-RUN rm -rf bower_components/
-RUN bower install --allow-root
+# Expose the application port
+EXPOSE 3000
 
-# Instal bower components public puertos
-WORKDIR /edca-dashboard/public_puertos
-RUN rm -rf bower_components/
-RUN bower install --allow-root
-
-# Instal bower components public redcompartida
-WORKDIR /edca-dashboard/public_redcompartida
-RUN rm -rf bower_components/
-RUN bower install --allow-root
-
-# return root directory
-WORKDIR /edca-dashboard
-
-EXPOSE 4000
-
-CMD ["./bin/www"]
+CMD [ "bash", "-c", "/usr/src/app/start.sh;bash" ]

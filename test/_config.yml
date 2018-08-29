@@ -12,11 +12,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "Minimal Mistakes Development Test Site"
 title_separator          : "-"
-name                     : "Your Name"
+name                     : "Bia"
 description              : "Minimal Mistakes theme test."
 url                      : "https://biam2.github.io"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/test"
-repository               : "BiaM2/minimal-mistakes"# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "biam2/minimal-mistakes"# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -65,7 +65,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : "mmistakes"
+  username               : "biam2"
 facebook:
   username               :
   app_id                 :
@@ -87,10 +87,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Bia2"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "locura"
+  location         : "alla"
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"

@@ -1,6 +1,6 @@
 # Develop override settings
 
-url: "https://biam2.github.io"
+url: "http://localhost:4000/blog"
 
 analytics:
   provider: false

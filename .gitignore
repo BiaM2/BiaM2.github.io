@@ -1,6 +1,6 @@
+*.lock
+.DS_Store
 _site/
 .sass-cache/
-.jekyll-metadata
-_pdf
-.DS_Store
-.idea
+_config.yml
+Gemfile

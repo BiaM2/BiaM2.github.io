@@ -1,43 +1,26 @@
-{% include mode_switcher.html %}
+---
+layout: page
+---
 
-<!DOCTYPE html>
-<html>
-<head>
-    {% include head_base.html %}
-    {% include head_post.html %}
-</head>
-
-<body>
-    {% include header.html %}
-
+<div class="post">
+  <!-- Wrapper Start -->
+  <section id="intro" style="border: 1px dotted #ddd;">
     <div class="container">
-        <div class="row">
-            <div id="markdown-container" class="col-lg-9">
-                <header>
-                    <p id="postTitle">{{ page.title }}</p>
-                    {% if page.tags %}
-                    <ul class="tags clearfix">
-                        {% for tag in page.tags %}
-                        <li><i class="fa fa-tag"></i> {{ tag }}</li>
-                        {% endfor %}
-                    </ul>
-                    {% endif %}
-                    <p id="postMeta">Publicado el {{ page.date | date_to_string }} en la categoría <a href="{{crturl}}category/">{{ page.categories[0] }}</a></p>
-
-                </header>
-
-                {{ content }}
+      <div class="row">
+        <div>
+          <div class="block">
+            <h1>{{ page.title }}</h1>
+            <div class="post-info-wrapper">
+              <p class="italic">Por <span class="bold">{{ page.author }}</span> en <span class="bold">{{ page.date | date: "%d-%m-%Y" }}</span></p>
             </div>
-
-            <div id="markdown-outline" class="col-lg-3">
-            </div>
-
-            {% include disqus_load.html %}
-        </div>
+            <hr />
+            <p>{{ content }}</p>
+          </div>
+        </div><!-- .col-md-7 close -->
+      </div>
     </div>
-
-    {% include footer.html %}
-
-    <script type="text/javascript" src="{{crturl}}javascripts/markdownreader.js"></script>
-</body>
-</html>
+  </section>
+</div>
+<p class="center-text" style="padding: 30px;">
+  <a href="{{ site.baseurl }}/Noticias">Volver</a>
+</p>

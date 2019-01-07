@@ -9,10 +9,10 @@ entries:
   - title: Outcome 1
     output: web
     folderitems:
-    - title: Indicador p11
+    - title: Indicador OC1_2
       url: /indicador_p_11.html
       output: web
-    - title: Indicador p12
+    - title: Indicador OC1_3
       url: /indicador_p12.html
       output: web
     - title: Indicador p13

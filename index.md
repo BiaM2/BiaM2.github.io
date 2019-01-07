@@ -14,9 +14,9 @@ Summary:
      */
 	
      var imagenes=new Array(
-        'images/fondo-1.jpg',
-        'images/fondo-2.jpg',
-        'images/fondo-3.jpg',
+        'images/fondo-11.jpg',
+        'images/fondo-22.jpg',
+        'images/fondo-33.jpg',
         'images/fondo-4.jpg',
 		'images/fondo-5.jpg'
         );

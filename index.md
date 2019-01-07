@@ -18,7 +18,7 @@ Summary:
         'images/fondo-22.jpg',
         'images/fondo-33.jpg',
         'images/fondo-11.jpg',
-		'images/fondo-5.jpg'
+		'images/fondo-55.jpg'
         );
       var conteo=0
      /**

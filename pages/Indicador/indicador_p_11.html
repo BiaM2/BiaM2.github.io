@@ -112,21 +112,13 @@ folder: Indicador
 				
 	<!-- Progreso del Indicador-->			
                 <div class="tab-pane fade" id="service-two" style="background-image:url(/images/hoja_i.jpg);">
-                    <h2 style="color:#cc181e;" align="center">Resultados </h2>
+                    <h2 style="color:#cc181e;" align="center">Indicador OC1_2: % de niños menores de 1 año que se registraron de forma oportuna </h2>
 					<br> </br>
 					<ul style="color:#ae0001;">
-                      <li>Fuentes de Información</li>
-					    <ul  style="color:#000000;">
-					    <li>SERECI</li>
-						<li>SNIS-VE</li>
-				        </ul>
-                      <li>Método de Recolección</li>
-					   <ul style="color:#000000;">
-					   <li>Solicitud de información CERECI </li>
-					   <li>Solicitud de información SNIS-VE </li>
-					   </ul>
-                    </ul>
-					<p >La siguiente tabla muestra el avance, de las 5 principales actividades involucradas en la obtención del indicador</p>
+                      <li>Cálculo del indicador</li>
+					    <p> Para el cálculo del indicador se toma en cuenta tres fuentes de información. La primera es la Encuesta de Demografía y Salud 2016 (EDSA 2016), dado que esta encuesta tiene representatividad a nivel residencial (urbana y rural) y para la población menor de 5 años de edad, se puede aproximar el porcentaje de menores que cuenta con certificado o acta de nacimiento a partir del cual se puede iniciar el registro en el SERECI (tabla Nº1).</p>
+         			    <p> La segunda es la cantidad de menores de un año (0 a 11 meses de edad) que realizaron su registro de nacimiento en el SERECI, y la tercera es la proyección de población de menores a 1 año realizada por el INE, bajo los cuales se calculó el indicador (tabla Nº2). Las últimas dos fuentes de datos permite calcular el porcentaje de menores registrados en el SERECI respecto de la población estimada de menores de un año. Sin embargo en este caso al no tener los datos del SERECI desagregados por área residencial, se calcula el indicador a nivel departamental y nacional.</p>             
+					  <li>Tabla Nº1: Porcentaje de menores de 0 a 11 meses de edad que tienen certificado o acta de nacimiento</li>
 					  <br> </br>
 					   
 					   <table border="2" cellspacing="10">
@@ -134,50 +126,95 @@ folder: Indicador
                        <col width="70%" />
                        <col width="35%" />
 					   <col width="45%" />
-					   <col width="35%" />
                        </colgroup>
 					   <tr>
-                      <td bgcolor="#007777" align="center"> </td>
-                      <td bgcolor="#007777" align="center" style="color:#f7f7f7"> Fase 1</td>
-					  <td bgcolor="#007777" align="center" style="color:#f7f7f7">Fase 2</td>
-					  <td bgcolor="#007777" align="center" style="color:#f7f7f7">Fase 3</td>
-                      </tr>
-					  <tr>
-                      <td bgcolor="#007777" align="center" style="color:#f7f7f7">Actividad</td>
-                      <td bgcolor="#007777" align="center" style="color:#f7f7f7">En Demora </td>
-					  <td bgcolor="#007777" align="center" style="color:#f7f7f7">En Proceso </td>
-					  <td bgcolor="#007777" align="center" style="color:#f7f7f7">Concluido </td>
+                      <td bgcolor="#007777" align="center" style="color:#f7f7f7"> Área </td>
+                      <td bgcolor="#007777" align="center" style="color:#f7f7f7"> Indicador</td>
+					  <td bgcolor="#007777" align="center" style="color:#f7f7f7">Coefiente de Variación</td>
                       </tr>
                       <tbody>
                       <tr>
-                      <td markdown="span" bgcolor="#5f9ea0">1. Planificación</td>
-                      <td markdown="span" bgcolor="#5f9ea0" align="center"> </td>
-					   <td markdown="span" bgcolor="#5f9ea0" align="center"> </td>
-					   <td markdown="span" bgcolor="#5f9ea0" align="center">X</td>
+                      <td markdown="span" bgcolor="#5f9ea0">Urbano</td>
+                      <td markdown="span" bgcolor="#5f9ea0" align="center"> 80.55 </td>
+					   <td markdown="span" bgcolor="#5f9ea0" align="center"> 2.50 </td>
                       </tr>
                       <tr>
-                      <td markdown="span" bgcolor="#83d0c9">2. Recolección de Información </td>
-                      <td markdown="span" bgcolor="#83d0c9" align="center"></td>
-					  <td markdown="span" bgcolor="#83d0c9" align="center"> X </td>
-					  <td markdown="span" bgcolor="#83d0c9" align="center"> </td>
+                      <td markdown="span" bgcolor="#83d0c9">Rural </td>
+                      <td markdown="span" bgcolor="#83d0c9" align="center">69.59</td>
+					  <td markdown="span" bgcolor="#83d0c9" align="center">7.50</td>
                       </tr>
 					   <tr>
-                      <td markdown="span" bgcolor="#5f9ea0">3. Validación de la Información </td>
-                      <td markdown="span" bgcolor="#5f9ea0" align="center"> X </td>
-					  <td markdown="span" bgcolor="#5f9ea0" align="center"> </td>
-					  <td markdown="span" bgcolor="#5f9ea0" align="center"> </td>
+                      <td markdown="span" bgcolor="#5f9ea0"><b>Nacional</b></td>
+                      <td markdown="span" bgcolor="#5f9ea0" align="center"> <b>77.04</b> </td>
+					  <td markdown="span" bgcolor="#5f9ea0" align="center"> <b>2.93</b> </td>
+                      </tr>
+                      </tbody>
+                      </table>
+					  <li>Tabla Nº2: Porcentaje de menores de 0 a 11 meses de edad que tienen su nacimiento registrado en el SERECI</li>
+					  <br> </br>
+					   <table border="2" cellspacing="10">
+					   <colgroup>
+                       <col width="70%" />
+                       <col width="35%" />
+					   <col width="45%" />
+                       </colgroup>
+					   <tr>
+                      <td bgcolor="#007777" align="center" style="color:#f7f7f7"> Departamento </td>
+                      <td bgcolor="#007777" align="center" style="color:#f7f7f7"> 2016</td>
+					  <td bgcolor="#007777" align="center" style="color:#f7f7f7"> 2017</td>
+                      </tr>
+                      <tbody>
+                      <tr>
+                      <td markdown="span" bgcolor="#5f9ea0">Chuquisaca</td>
+                      <td markdown="span" bgcolor="#5f9ea0" align="center"> 73.94 </td>
+					   <td markdown="span" bgcolor="#5f9ea0" align="center"> 63.65 </td>
+                      </tr>
+                      <tr>
+                      <td markdown="span" bgcolor="#83d0c9">La Paz</td>
+                      <td markdown="span" bgcolor="#83d0c9" align="center">79.98</td>
+					  <td markdown="span" bgcolor="#83d0c9" align="center">72.12</td>
                       </tr>
 					   <tr>
-                      <td markdown="span" bgcolor="#83d0c9">4. Análisis y Procesamiento </td>
-                      <td markdown="span" bgcolor="#83d0c9" align="center"> X </td>
-					   <td markdown="span" bgcolor="#83d0c9" align="center"> </td>
-					   <td markdown="span" bgcolor="#83d0c9" align="center"> </td>
+                      <td markdown="span" bgcolor="#5f9ea0">Cochabamba</td>
+                      <td markdown="span" bgcolor="#5f9ea0" align="center"> 86.97 </td>
+					  <td markdown="span" bgcolor="#5f9ea0" align="center"> 84.13 </td>
                       </tr>
-					   <tr>
-                      <td markdown="span" bgcolor="#5f9ea0">5. Redacción del Informe </td>
-                      <td markdown="span" bgcolor="#5f9ea0" align="center"> X </td>
-					   <td markdown="span" bgcolor="#5f9ea0" align="center"> </td>
-					   <td markdown="span" bgcolor="#5f9ea0" align="center"> </td>
+					  	   <tr>
+                      <td markdown="span" bgcolor="#5f9ea0">Oruro</td>
+                      <td markdown="span" bgcolor="#5f9ea0" align="center">92.92 </td>
+					  <td markdown="span" bgcolor="#5f9ea0" align="center"> 80.56 </td>
+                      </tr>
+					  	   <tr>
+                      <td markdown="span" bgcolor="#5f9ea0">Potosí</td>
+                      <td markdown="span" bgcolor="#5f9ea0" align="center"> 55.45 </td>
+					  <td markdown="span" bgcolor="#5f9ea0" align="center"> 45.22 </td>
+                      </tr>
+					  	   <tr>
+                      <td markdown="span" bgcolor="#5f9ea0">Tarija</td>
+                      <td markdown="span" bgcolor="#5f9ea0" align="center"> 86.17 </td>
+					  <td markdown="span" bgcolor="#5f9ea0" align="center"> 72.54 </td>
+                      </tr>
+					  	   <tr>
+                      <td markdown="span" bgcolor="#5f9ea0">Santa Cruz</td>
+                      <td markdown="span" bgcolor="#5f9ea0" align="center"> 86.97 </td>
+					  <td markdown="span" bgcolor="#5f9ea0" align="center"> 84.13 </td>
+                      </tr>
+					  	   <tr>
+                      <td markdown="span" bgcolor="#5f9ea0">Beni</td>
+                      <td markdown="span" bgcolor="#5f9ea0" align="center"> 99.46 </td>
+					  <td markdown="span" bgcolor="#5f9ea0" align="center"> 100.70 </td>
+                      </tr>
+                      </tbody>
+					  		  	   <tr>
+                      <td markdown="span" bgcolor="#5f9ea0">Pando</td>
+                      <td markdown="span" bgcolor="#5f9ea0" align="center"> 63.95 </td>
+					  <td markdown="span" bgcolor="#5f9ea0" align="center"> 23.88 </td>
+                      </tr>
+                      </tbody>
+					  		  	   <tr>
+                      <td markdown="span" bgcolor="#5f9ea0"><b>Nacional</b></td>
+                      <td markdown="span" bgcolor="#5f9ea0" align="center"><b> 79.21 </b> </td>
+					  <td markdown="span" bgcolor="#5f9ea0" align="center"><b> 73.76 </b></td>
                       </tr>
                       </tbody>
                       </table>

@@ -129,38 +129,43 @@ folder: Indicador
     <script>
     
       google.charts.load('current', {'packages':['corechart']});
-      google.charts.setOnLoadCallback(drawChart);
+      google.charts.setOnLoadCallback(drawChart1);
 
-      function drawChart() {
+      function drawChart1() {
       
         var data = google.visualization.arrayToDataTable([
-          ['Año', 'Salary'],
-          ['18',  567],
-          ['20',  612],
-          ['25',  800],
-          ['30',  980],
-          ['40',  1410],
-          ['50',  2350]
+          ['Año', 'Gasto'],
+          ['2005',  2734],
+          ['2006',  3404],
+          ['2007',  3717],
+          ['2008',  4055],
+          ['2009',  5072],
+		  ['2010',  6952],
+		  ['2011',  8850],
+		  ['2012',  10125],
+		  ['2013',  11950],
+		  ['2014',  15811],
+          ['2015',  17770]
         ]);
 
         var options = {
           title: 'Gráfica Nº4: Evolución de gasto para la niñez y adolescencia(En millones de bolivianos)',
           curveType: 'function',
-          width:900,
-          height:500,
+          width:700,
+          height:400,
           vAxis: {title: 'Millones de Bs.'},
           hAxis: {title: 'Año'},
           legend: { position: 'bottom' }
         };
 
-        var chart = new google.visualization.LineChart(document.getElementById('mychart'));
+        var chart = new google.visualization.LineChart(document.getElementById('lineaP41'));
 
         chart.draw(data, options);
       }
     </script>
   </head>
   <body>
-    <div id="mychart"></div>
+    <div id="lineaP41"></div>
   </body>
 		<!-- TABLA 1--> 		
 					<table border="2" cellspacing="8">

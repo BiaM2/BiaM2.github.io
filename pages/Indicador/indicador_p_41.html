@@ -123,6 +123,46 @@ folder: Indicador
 						   la Nación (PGN).  </li>
 					    </ul>
                     </ul>
+		<!-- grafica 1-->			
+					 <head>
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+    <script>
+    
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+      
+        var data = google.visualization.arrayToDataTable([
+          ['Año', 'Salary'],
+          ['18',  567],
+          ['20',  612],
+          ['25',  800],
+          ['30',  980],
+          ['40',  1410],
+          ['50',  2350]
+        ]);
+
+        var options = {
+          title: 'Gráfica Nº4: Evolución de gasto para la niñez y adolescencia(En millones de bolivianos)',
+          curveType: 'function',
+          width:900,
+          height:500,
+          vAxis: {title: 'Millones de Bs.'},
+          hAxis: {title: 'Año'},
+          legend: { position: 'bottom' }
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('mychart'));
+
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="mychart"></div>
+  </body>
+		<!-- TABLA 1--> 		
 					<table border="2" cellspacing="8">
 					  <caption style="color:#000000">Tabla Nº58: Departamentos que cumplen con participación de NNA</caption>
 					  <colgroup>
@@ -163,13 +203,14 @@ folder: Indicador
                           <td bgcolor="#83d0c9" align="center"style="font-size:70%">177</td>
 						 </tr>
 						</tbody>
-					</table>
+		 			</table>
 					 <p style="font-size:70%" > Fuente: Elaboración propia con datos de “Presupuesto 
 					 Público para Niñas, Niños y Adolescentes en Bolivia. Documento Metodológico para
 					 la Clasificación de Recursos Asignados a la Infancia, Niñez y Adolescencia.
 					 Ministerio de Economía y Finanzas Públicas” </p>
 					<br></br>
 					
+		<!-- TABLA 2-->			
 					<table border="2" cellspacing="8">
 					     <caption style="color:#000000">Tabla Nº56: Clases y categorías de gasto dirigidos a la niñez y adolescencia en Bolivia</caption>
 					     <colgroup>
@@ -238,8 +279,165 @@ folder: Indicador
 					      <td bgcolor="#83d0c9" style="font-size:80%" align="justify">TRANSFERENCIAS CONDICIONADAS</td>
 						  <td bgcolor="#83d0c9" style="font-size:80%" align="justify">BONO JUANCITO PINTO</td>
                          </tr>
+						 <tr>
+					      <td bgcolor="#83d0c9" style="font-size:80%" valign="left"rowspan="11">GASTO INDIRECTO </td>
+                          <td bgcolor="#83d0c9" align="left"style="font-size:70%">EDUCACIÓN </td>
+						  <td bgcolor="#83d0c9" align="justify"style="font-size:70%">EDUCACIÓN ALTERNATIVA ESPECIAL</td>
+						 </tr>
+						 <tr>
+					      <td bgcolor="#83d0c9" style="font-size:80%" valign="left"rowspan="5">SALUD </td>
+                          <td bgcolor="#83d0c9" align="justify"style="font-size:70%">SEGURO UNIVERSAL DE SALUD</td>
+						 </tr>
+						 <tr>
+					      <td bgcolor="#83d0c9" align="justify"style="font-size:70%">MI SALUD</td>
+						 </tr>
+						 <tr>
+					      <td bgcolor="#83d0c9" align="justify"style="font-size:70%">TELE SALUD</td>
+						 </tr>
+						 <tr>
+					      <td bgcolor="#83d0c9" align="justify"style="font-size:70%">TELE MEDICINA</td>
+						 </tr>
+						 <tr>
+					      <td bgcolor="#83d0c9" align="justify"style="font-size:70%">SERVICIOS DEPARTAMENTALES DE SALUD (SEDES)</td>
+						 </tr>
+						 <tr>
+					      <td bgcolor="#83d0c9" style="font-size:80%" valign="left"rowspan="3">CONDICIONES DE VIDA </td>
+                          <td bgcolor="#83d0c9" align="justify"style="font-size:70%">AGUA POTABLE Y ALCANTARILLADO</td>
+						 </tr>
+						 <tr>
+					      <td bgcolor="#83d0c9" align="justify"style="font-size:70%">VIVIENDA</td>
+						 </tr>
+						 <tr>
+					      <td bgcolor="#83d0c9" align="justify"style="font-size:70%">INFRAESTRUCTURA BÁSICA</td>
+						 </tr>
+						 <tr>
+					      <td bgcolor="#83d0c9" style="font-size:80%" valign="left">DEPORTES Y CULTURA </td>
+                          <td bgcolor="#83d0c9" align="justify"style="font-size:70%">DEPORTES, RECREACIÓN Y CULTURA</td>
+						 </tr>
+						 <tr>
+					      <td bgcolor="#83d0c9" style="font-size:80%" valign="left">TRANSFERENCIAS CONDICIONADAS</td>
+                          <td bgcolor="#83d0c9" align="justify"style="font-size:70%">BONO JUANA AZURDUY</td>
+						 </tr>
+						 <tr>
+					      <td bgcolor="#83d0c9" style="font-size:80%" valign="left"rowspan="4">GASTO AMPLIADO </td>
+                          <td bgcolor="#83d0c9" align="left"style="font-size:70%">DESARROLLO E INTEGRACIÓN</td>
+						  <td bgcolor="#83d0c9" align="justify"style="font-size:70%">ATENCIÓN DE GRUPOS VULNERABLES</td>
+						 </tr>
+						 <tr>
+					      <td bgcolor="#83d0c9" style="font-size:80%" valign="left"rowspan="2">JUSTICIA</td>
+                          <td bgcolor="#83d0c9" align="justify"style="font-size:70%">PROGRAMA DE APOYO A LA FAMILIA</td>
+						 </tr>
+						 <tr>
+					      <td bgcolor="#83d0c9" align="justify"style="font-size:70%">PROGRAMAS DE ASISTENCIA SOCIAL</td>
+						 </tr>
+						 <tr>
+					      <td bgcolor="#83d0c9" style="font-size:80%" valign="left">SALUD</td>
+                          <td bgcolor="#83d0c9" align="justify"style="font-size:70%">PREVENCIÓN DE ENFERMEDADES Y RIESGOS ESPECÍFICOS</td>
+						 </tr>
 					    </tbody>
 					</table>
+					 <p style="font-size:70%" > Fuente: “Presupuesto Público para Niñas, Niños y 
+					 Adolescentes en Bolivia. Documento Metodológico para la Clasificación de 
+					 Recursos Asignados a la Infancia, Niñez y Adolescencia. Ministerio de Economía
+					 y Finanzas Públicas” </p>
+					 <br> </br>
+					 
+		<!-- TABLA 3-->  
+		            <table border="2" cellspacing="8">
+					     <caption style="color:#000000">Tabla Nº57: Presupuesto para la niñez y adolescencia por tipo de gasto 2005-2015
+                         (En millones de bolivianos)</caption>
+					     <colgroup>
+                          <col width="12%"/>
+                          <col width="8%"/>
+						  <col width="8%"/>
+						  <col width="8%"/>
+						  <col width="8%"/>
+						  <col width="8%"/>
+						  <col width="8%"/>
+						  <col width="8%"/>
+						  <col width="8%"/>
+						  <col width="8%"/>
+						  <col width="8%"/>
+						  <col width="8%"/>
+						 </colgroup>
+						 <tr>
+                          <td bgcolor="#007777" align="left"style="color:#f7f7f7; font-size:80%">TIPO</td>
+                          <td bgcolor="#007777" align="center" style="color:#f7f7f7; font-size:80%">2005</td>
+					      <td bgcolor="#007777" align="center" style="color:#f7f7f7; font-size:80%">2006</td>
+						 <td bgcolor="#007777" align="center" style="color:#f7f7f7; font-size:80%">2007</td>
+					      <td bgcolor="#007777" align="center" style="color:#f7f7f7; font-size:80%">2008</td>
+						  <td bgcolor="#007777" align="center" style="color:#f7f7f7; font-size:80%">2009</td>
+					      <td bgcolor="#007777" align="center" style="color:#f7f7f7; font-size:80%">2010</td>
+						  <td bgcolor="#007777" align="center" style="color:#f7f7f7; font-size:80%">2011</td>
+					      <td bgcolor="#007777" align="center" style="color:#f7f7f7; font-size:80%">2012</td>
+						  <td bgcolor="#007777" align="center" style="color:#f7f7f7; font-size:80%">2013</td>
+					      <td bgcolor="#007777" align="center" style="color:#f7f7f7; font-size:80%">2014</td>
+						  <td bgcolor="#007777" align="center" style="color:#f7f7f7; font-size:80%">2015</td>
+					     </tr>
+					    <tbody>
+					     <tr>
+					      <td bgcolor="#83d0c9" style="font-size:80%" align="left">GASTO ESPECÍFICO </td>
+                          <td bgcolor="#83d0c9" align="center"style="font-size:70%">2.692 </td>
+						  <td bgcolor="#83d0c9" align="center"style="font-size:70%">3,368</td>
+						  <td bgcolor="#83d0c9" align="center"style="font-size:70%">3,630 </td>
+						  <td bgcolor="#83d0c9" align="center"style="font-size:70%">4,007</td>
+						  <td bgcolor="#83d0c9" align="center"style="font-size:70%">4,962 </td>
+						  <td bgcolor="#83d0c9" align="center"style="font-size:70%">6,488</td>
+						  <td bgcolor="#83d0c9" align="center"style="font-size:70%">7,418 </td>
+						  <td bgcolor="#83d0c9" align="center"style="font-size:70%">8,269</td>
+						  <td bgcolor="#83d0c9" align="center"style="font-size:70%">9,146 </td>
+						  <td bgcolor="#83d0c9" align="center"style="font-size:70%">13,087</td>
+						  <td bgcolor="#83d0c9" align="center"style="font-size:70%">14,485</td>
+						 </tr>
+						 <tr>
+					      <td bgcolor="#83d0c9" style="font-size:80%" align="left">GASTO INDIRECTO </td>
+                          <td bgcolor="#83d0c9" align="center"style="font-size:70%"> 13</td>
+						  <td bgcolor="#83d0c9" align="center"style="font-size:70%">16</td>
+						  <td bgcolor="#83d0c9" align="center"style="font-size:70%">39 </td>
+						  <td bgcolor="#83d0c9" align="center"style="font-size:70%">22</td>
+						  <td bgcolor="#83d0c9" align="center"style="font-size:70%"> 46</td>
+						  <td bgcolor="#83d0c9" align="center"style="font-size:70%">391</td>
+						  <td bgcolor="#83d0c9" align="center"style="font-size:70%"> 1,276</td>
+						  <td bgcolor="#83d0c9" align="center"style="font-size:70%">1,395</td>
+						  <td bgcolor="#83d0c9" align="center"style="font-size:70%">2,396 </td>
+						  <td bgcolor="#83d0c9" align="center"style="font-size:70%">2,285</td>
+						  <td bgcolor="#83d0c9" align="center"style="font-size:70%">2,943 </td>
+						 </tr>
+						 <tr>
+					      <td bgcolor="#83d0c9" style="font-size:80%" align="left">GASTO AMPLIADO </td>
+                          <td bgcolor="#83d0c9" align="center"style="font-size:70%"> 29</td>
+						  <td bgcolor="#83d0c9" align="center"style="font-size:70%">20</td>
+						  <td bgcolor="#83d0c9" align="center"style="font-size:70%">47 </td>
+						  <td bgcolor="#83d0c9" align="center"style="font-size:70%">26</td>
+						  <td bgcolor="#83d0c9" align="center"style="font-size:70%">64 </td>
+						  <td bgcolor="#83d0c9" align="center"style="font-size:70%">73</td>
+						  <td bgcolor="#83d0c9" align="center"style="font-size:70%"> 156</td>
+						  <td bgcolor="#83d0c9" align="center"style="font-size:70%">461</td>
+						  <td bgcolor="#83d0c9" align="center"style="font-size:70%">408 </td>
+						  <td bgcolor="#83d0c9" align="center"style="font-size:70%">440</td>
+						  <td bgcolor="#83d0c9" align="center"style="font-size:70%">341 </td>
+						 </tr>
+						 <tr>
+					      <td bgcolor="#5f9ea0" style="font-size:80%" align="left">TOTAL GENERAL </td>
+                          <td bgcolor="#5f9ea0" align="center"style="font-size:70%">2.734 </td>
+						  <td bgcolor="#5f9ea0" align="center"style="font-size:70%">3,404</td>
+						  <td bgcolor="#5f9ea0" align="center"style="font-size:70%">3,717 </td>
+						  <td bgcolor="#5f9ea0" align="center"style="font-size:70%">4,055</td>
+						  <td bgcolor="#5f9ea0" align="center"style="font-size:70%">5,072 </td>
+						  <td bgcolor="#5f9ea0" align="center"style="font-size:70%">6,952</td>
+						  <td bgcolor="#5f9ea0" align="center"style="font-size:70%">8,850 </td>
+						  <td bgcolor="#5f9ea0" align="center"style="font-size:70%">10,125</td>
+						  <td bgcolor="#5f9ea0" align="center"style="font-size:70%">11,950 </td>
+						  <td bgcolor="#5f9ea0" align="center"style="font-size:70%">15,811</td>
+						  <td bgcolor="#5f9ea0" align="center"style="font-size:70%">17,770</td>
+						 </tr>
+		                </tbody>
+					</table>
+					 <p style="font-size:70%" > Fuente: “Presupuesto Público para Niñas, Niños y 
+					 Adolescentes en Bolivia. Documento Metodológico para la Clasificación de 
+					 Recursos Asignados a la Infancia, Niñez y Adolescencia. Ministerio de Economía
+					 y Finanzas Públicas” </p>
+					 <br> </br>
                 </div>
                 
             </div>

@@ -123,89 +123,7 @@ folder: Indicador
 						   la Nación (PGN).  </li>
 					    </ul>
                     </ul>
-		<!-- grafica 1-->			
-			 <head>
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script>
-    
-      google.charts.load('current', {'packages':['corechart', 'line', 'bar', 'annotationchart']});
-      google.charts.setOnLoadCallback(drawChart1);
-
-      function drawChart1() {
-      
-        var data = new google.visualization.DataTable(); 
-        data.addColumn('string', 'Año');
-        data.addColumn('number', 'Gasto');
-         data.addColumn({id: 'nota', label: 'nota', type: 'string', role: 'annotation'});
-         data.addRows([		
-          ['2005',  2734, '2.734'],
-          ['2006',  3404, '3.404'],
-          ['2007',  3717, '3.717'],
-          ['2008',  4055, '4.055' ],
-          ['2009',  5072, '5.072'],
-		  ['2010',  6952, '6.952'],
-		  ['2011',  8850, '8.850'],
-		  ['2012',  10125, '10.125'],
-		  ['2013',  11950, '11.950'],
-		  ['2014',  15811, '15.811'],
-          ['2015',  17770, '17.770'],
-        ]);
-
-        var options = {
-		 title: 'Gráfica Nº4: Evolución de gasto para la niñez y adolescencia                         (En millones de bolivianos)',
-          curveType: 'function',
-		  series: {
-            0: { color: '#1ebbd7' },
-          },
-          width:800,
-          height:450,
-          vAxis: {title: 'Millones de Bs.',
-		   gridlines: { count: 10, },
-		   maxValue:20000,
-		   },
-          hAxis: {title: 'Año'},
-		  displayAnnotations: true,
-          legend: 'none',
-		   pointSize: 5,
-		   pointShape:'square',
-		   annotations: {
-    boxStyle: {
-      stroke: '#d41243',
-      // Thickness of the box outline.
-      strokeWidth: 1,
-      rx: 0,
-      ry: 0,
-      gradient: {
-      color1: '#d41243',
-        // Finish color for gradient.
-        color2: '#d41243',
-        x1: '0%', y1: '0%',
-        x2: '0%', y2: '0%',
-        useObjectBoundingBoxUnits: true
-      },
-    },
-	highContrast:false,
-	textStyle: {
-	 fontName: 'Georgia',
-    fontSize: 12,
-     color: '#f9f9f9',
-     auraColor: 'none',
-    opacity: 1.0
-    }, 
-	},
-	    
-            };
-        var chart = new google.visualization.LineChart(document.getElementById('lineaP41'));
-
-        chart.draw(data, options);
-      }
-    </script>
-  </head>
-  <body>
-  <center>
-    <div id="lineaP41"></div>
-	</center>
-  </body>
+		
 		<!-- TABLA 1--> 		
 					<table border="2" cellspacing="8">
 					  <caption style="color:#000000">Tabla Nº58: Departamentos que cumplen con participación de NNA</caption>
@@ -482,6 +400,84 @@ folder: Indicador
 					 Recursos Asignados a la Infancia, Niñez y Adolescencia. Ministerio de Economía
 					 y Finanzas Públicas” </p>
 					 <br> </br>
+					 
+		<!-- grafica 1-->	
+
+                    <h3 style="color:#cc181e;" align="left">Gráfica Nº4: Evolución de gasto para la niñez y adolescencia</h3>
+                    <h3 style="color:#cc181e;" align="left">(En millones de bolivianos)</h3>
+
+					 		
+			        <head>
+                       <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+                       <script>
+                       google.charts.load('current', {'packages':['corechart', 'line', 'bar', 'annotationchart']});
+                       google.charts.setOnLoadCallback(drawChart1);
+                        function drawChart1() {
+                        var data = new google.visualization.DataTable(); 
+                        data.addColumn('string', 'Año');
+                        data.addColumn('number', 'Gasto');
+                        data.addColumn({id: 'nota', label: 'nota', type: 'string', role: 'annotation'});
+                        data.addRows([		
+                        ['2005',  2734, '2.734'],
+                        ['2006',  3404, '3.404'],
+                        ['2007',  3717, '3.717'],
+                        ['2008',  4055, '4.055' ],
+                        ['2009',  5072, '5.072'],
+		                ['2010',  6952, '6.952'],
+		                ['2011',  8850, '8.850'],
+		                ['2012',  10125, '10.125'],
+		                ['2013',  11950, '11.950'],
+		                ['2014',  15811, '15.811'],
+                        ['2015',  17770, '17.770'],
+                        ]);
+
+                        var options = {
+		                  title: 'Gráfica Nº4: Evolución de gasto para la niñez y adolescencia(En millones de bolivianos)',
+                          curveType: 'function',
+		                  series: {0: { color: '#1ebbd7' },},
+                          width:800,
+                          height:450,
+                          vAxis: {title: 'Millones de Bs.',
+		                          gridlines: { count: 10, },
+		                                       maxValue:20000,},
+                          hAxis: {title: 'Año'},
+		                  displayAnnotations: true,
+                          legend: 'none',
+		                  pointSize: 5,
+		                  pointShape:'square',
+		                  annotations: { boxStyle: { stroke: '#d41243',
+                                                     strokeWidth: 1,
+                                                     rx: 0,
+                                                     ry: 0,
+                                                     gradient: { color1: '#d41243',
+                                                                 color2: '#d41243',
+																 x1: '0%', y1: '0%',
+																 x2: '0%', y2: '0%',
+																 useObjectBoundingBoxUnits: true},
+						                           },
+	                                     highContrast:false,
+	                                     textStyle: { fontName: 'Georgia',
+                                                      fontSize: 12,
+                                                      color: '#f9f9f9',
+                                                      auraColor: 'none',
+                                                      opacity: 1.0 }, 
+	                                    },};
+                        var chart = new google.visualization.LineChart(document.getElementById('lineaP41'));
+                        chart.draw(data, options);
+                        }
+                       </script>
+                       </head>
+                        <body>
+                         <center>
+                            <div id="lineaP41"></div>
+							<p style="font-size:70%" > Fuente: “Presupuesto Público para Niñas, 
+							Niños y Adolescentes en Bolivia. Documento Metodológico para la 
+							Clasificación de Recursos Asignados a la Infancia, Niñez y 
+							Adolescencia. Ministerio de Economía y Finanzas Públicas” </p>
+	                     </center>
+                        </body> 
+					 
+					 
                 </div>
                 
             </div>

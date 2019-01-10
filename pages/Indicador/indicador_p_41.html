@@ -124,29 +124,36 @@ folder: Indicador
 					    </ul>
                     </ul>
 		<!-- grafica 1-->			
-					 <head>
+	<head>
     <script src="https://www.gstatic.com/charts/loader.js"></script>
     <script>
     
       google.charts.load('current', {'packages':['corechart']});
+	google.charts.load('current', {'packages':['annotationchart']});
       google.charts.setOnLoadCallback(drawChart1);
+	  google.charts.setOnLoadCallback(drawChart);
 
-      function drawChart1() {
+      function drawChart() {
       
-        var data = google.visualization.arrayToDataTable([
-          ['Año', 'Gasto'],
-          ['2005',  2734],
-          ['2006',  3404],
-          ['2007',  3717],
-          ['2008',  4055],
-          ['2009',  5072],
-		  ['2010',  6952],
-		  ['2011',  8850],
-		  ['2012',  10125],
-		  ['2013',  11950],
-		  ['2014',  15811],
-          ['2015',  17770]
+        var data = google.visualization.arrayToDataTable();
+          data.addColumn('string', 'Año');
+		  data.addColumn('number', 'Gasto');
+		  data.addColumn({type:'string', role:'annotation'});
+		  data.addRows([
+          ['2005',  2734, '2.734'],
+          ['2006',  3404, '3.404'],
+          ['2007',  3717, '3.717'],
+          ['2008',  4055, '4.055' ],
+          ['2009',  5072, '5.072'],
+		  ['2010',  6952, '6.952'],
+		  ['2011',  8850, '8.850'],
+		  ['2012',  10125, '10.125'],
+		  ['2013',  11950, '11.950'],
+		  ['2014',  15811, '15.811'],
+          ['2015',  17770, '17,770']
         ]);
+		
+
 
         var options = {
 		 
@@ -157,10 +164,12 @@ folder: Indicador
           vAxis: {title: 'Millones de Bs.'},
           hAxis: {title: 'Año'},
           legend: 'none',
-		   pointSize: 5
+		   pointSize: 5,
+		   pointShape:'square',
+		   displayAnnotations: true
          };
         var chart = new google.visualization.LineChart(document.getElementById('lineaP41'));
-
+         var chart = new google.visualization.AnnotationChart(document.getElementById('chart_div'));
         chart.draw(data, options);
       }
     </script>
@@ -168,6 +177,7 @@ folder: Indicador
   <body>
   <center>
     <div id="lineaP41"></div>
+	<div id="chart_div"></div>
 	</center>
   </body>
 		<!-- TABLA 1--> 		

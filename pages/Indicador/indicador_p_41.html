@@ -163,20 +163,43 @@ folder: Indicador
           legend: 'none',
 		   pointSize: 5,
 		   pointShape:'square',
-		   annotations: {
-				 textStyle: {
+		   annotations: {boxStyle: {
+                // Color del contorno de la caja.
+                stroke: '#d11141',
+               // Grosor del contorno de la caja.
+               strokeWidth: 1,
+               // Radio X de la curvatura de la esquina.
+               rx: 0,
+               // Radio Y de la curvatura de la esquina.
+               ry: 0,
+                 // Atributos para el relleno de degradado lineal.
+               gradient: {
+                // Comenzar el color para gradiente.
+                color1: '#d11141',
+                //Acabado de color para degradado.
+                color2: '#d11141',
+                // Donde en el límite para comenzar y
+                // terminar el gradiente color1 / color2,
+                // relativo a la esquina superior izquierda
+                // del límite.
+                x1: '0%', y1: '0%',
+                x2: '100%', y2: '100%',
+                // Si es verdadero, el límite para x1,
+                // y1, x2, y y2 es el cuadro. Si
+                // falso, es el gráfico completo.
+                useObjectBoundingBoxUnits: true
+                 }},
+        textStyle: {
       fontName: 'Times-Roman',
       fontSize: 12,
-      bold: true,
-      italic: true,
       // The color of the text.
-      color: '#871b47',
+      color: '#f7f7f7',
       // The color of the text outline.
-      auraColor: '#d799ae',
+      auraColor: 'The color of the text outline.',
       // The transparency of the text.
-      opacity: 0
+      opacity: 1
     }
-				 }
+				 },
             };
         var chart = new google.visualization.LineChart(document.getElementById('lineaP41'));
 

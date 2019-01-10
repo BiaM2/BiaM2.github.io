@@ -149,14 +149,15 @@ folder: Indicador
         ]);
 
         var options = {
-          title: 'Gráfica Nº4: Evolución de gasto para la niñez y adolescencia(En millones de bolivianos)',
+		 
+         title: 'Gráfica Nº4: Evolución de gasto para la niñez y adolescencia(En millones de bolivianos)',
           curveType: 'function',
           width:700,
           height:400,
           vAxis: {title: 'Millones de Bs.'},
           hAxis: {title: 'Año'},
-          legend: { position: 'bottom' }
-        };
+          legend: 'none',
+		   pointSize: 5
 
         var chart = new google.visualization.LineChart(document.getElementById('lineaP41'));
 

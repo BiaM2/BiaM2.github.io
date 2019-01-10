@@ -123,14 +123,12 @@ folder: Indicador
 						   la Nación (PGN).  </li>
 					    </ul>
                     </ul>
-		<!-- grafica 1-->	
-
-tuyipo2		
+		<!-- grafica 1-->			
 					 <head>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script>
     
-      google.charts.load('current', {'packages':['corechart', 'line', 'bar']});
+      google.charts.load('current', {'packages':['corechart', 'line', 'bar', 'annotationchart']});
       google.charts.setOnLoadCallback(drawChart1);
 
       function drawChart1() {
@@ -187,8 +185,7 @@ tuyipo2
       },
     },
 	highContrast:false,
-	},
-		annotations.textStyle: {
+	textStyle: {
       fontName: 'Times-Roman',
       fontSize: 10,
       bold: false,
@@ -198,9 +195,11 @@ tuyipo2
       // The color of the text outline.
       auraColor: 'none',
     opacity: 1
-    },   
+    }, 
+	},
+	    
             };
-        var chart = new google.visualization.LineChart(document.getElementById('lineaP41'));
+        var chart = new google.visualization.AnnotationChart(document.getElementById('lineaP41'));
 
         chart.draw(data, options);
       }

@@ -154,7 +154,9 @@ folder: Indicador
         var options = {
 		 title: 'Gráfica Nº4: Evolución de gasto para la niñez y adolescencia(En millones de bolivianos)',
           curveType: 'function',
-		  color: '#43e8d8',
+		  series: {
+            0: { color: '#43e8d8' },
+          },
           width:800,
           height:450,
           vAxis: {title: 'Millones de Bs.'},

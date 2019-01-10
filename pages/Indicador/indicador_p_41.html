@@ -152,8 +152,7 @@ folder: Indicador
         ]);
 
         var options = {
-		 
-         title: 'Gráfica Nº4: Evolución de gasto para la niñez y adolescencia(En millones de bolivianos)',
+		 title: 'Gráfica Nº4: Evolución de gasto para la niñez y adolescencia(En millones de bolivianos)',
           curveType: 'function',
           width:800,
           height:450,
@@ -163,6 +162,31 @@ folder: Indicador
           legend: 'none',
 		   pointSize: 5,
 		   pointShape:'square',
+		   annotations: {
+    boxStyle: {
+      stroke: '#d41243',
+      // Thickness of the box outline.
+      strokeWidth: 1,
+      rx: 0,
+      ry: 0,
+      gradient: {
+        // Start color for gradient.
+        color1: '#d41243',
+        // Finish color for gradient.
+        color2: '#d412439',
+        // Where on the boundary to start and
+        // end the color1/color2 gradient,
+        // relative to the upper left corner
+        // of the boundary.
+        x1: '0%', y1: '0%',
+        x2: '100%', y2: '100%',
+        // If true, the boundary for x1,
+        // y1, x2, and y2 is the box. If
+        // false, it's the entire chart.
+        useObjectBoundingBoxUnits: true
+      }
+    }
+  },
 		   
             };
         var chart = new google.visualization.LineChart(document.getElementById('lineaP41'));

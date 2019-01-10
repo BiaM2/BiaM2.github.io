@@ -125,27 +125,30 @@ folder: Indicador
                     </ul>
 		<!-- grafica 1-->			
 					 <head>
-    <script src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script>
     
-      google.charts.load('current', {'packages':['corechart']});
+      google.charts.load('current', {'packages':['corechart', 'line', 'bar']});
       google.charts.setOnLoadCallback(drawChart1);
 
       function drawChart1() {
       
-        var data = google.visualization.arrayToDataTable([
-          ['Año', 'Gasto'],
-          ['2005',  2734],
-          ['2006',  3404],
-          ['2007',  3717],
-          ['2008',  4055],
-          ['2009',  5072],
-		  ['2010',  6952],
-		  ['2011',  8850],
-		  ['2012',  10125],
-		  ['2013',  11950],
-		  ['2014',  15811],
-          ['2015',  17770]
+        var data = new google.visualization.DataTable(); 
+        data.addColumn('string', 'Año');
+        data.addColumn('number', 'Gasto');
+         data.addColumn({id: 'nota', label: 'nota', type: 'string', role: 'annotation'});
+         data.addRows([		
+          ['2005',  2734, '2.734'],
+          ['2006',  3404, '3.404'],
+          ['2007',  3717, '3.717'],
+          ['2008',  4055, '4.055' ],
+          ['2009',  5072, '5.072'],
+		  ['2010',  6952, '6.952'],
+		  ['2011',  8850, '8.850'],
+		  ['2012',  10125, '10.125'],
+		  ['2013',  11950, '11.950'],
+		  ['2014',  15811, '15.811'],
+          ['2015',  17770, '17.770'],
         ]);
 
         var options = {
@@ -156,6 +159,7 @@ folder: Indicador
           height:400,
           vAxis: {title: 'Millones de Bs.'},
           hAxis: {title: 'Año'},
+		  displayAnnotations: true,
           legend: 'none',
 		   pointSize: 5,
 		   pointShape:'square',

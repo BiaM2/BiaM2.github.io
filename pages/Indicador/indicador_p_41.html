@@ -484,7 +484,91 @@ folder: Indicador
 							Adolescencia. Ministerio de Economía y Finanzas Públicas” </p>
 	                     </center>
                         </body> 
-					 
+		<!-- grafica 1-->	
+
+                    <h3 style="color:#000000;" align="center"> &nbsp &nbsp &nbsp &nbsp &nbsp 
+					&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+					&nbsp Gráfica Nº4: Evolución de gasto para la niñez y adolescencia 
+					&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+					&nbsp &nbsp &nbsp &nbsp &nbsp(En millones de bolivianos) </h3>
+                    
+
+					 		
+			        <head>
+                       <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+                       <script>
+                       google.charts.load('current', {'packages':['corechart', 'line', 'bar', 'annotationchart']});
+                       google.charts.setOnLoadCallback(drawChart2);
+                        function drawChart2() {
+                        var data = new google.visualization.DataTable(); 
+                        data.addColumn('string', 'Año');
+                        data.addColumn('number', 'Gasto');
+                        data.addColumn({id: 'nota', label: 'nota', type: 'string', role: 'annotation'});
+                        data.addRows([		
+                        ['2005',  3.5, '3,5'],
+                        ['2006',  3.7, '3,7'],
+                        ['2007',  3.6, '3,6'],
+                        ['2008',  3.4, '3,4' ],
+                        ['2009',  4.2, '4,2'],
+		                ['2010',  5.0, '5,0'],
+		                ['2011',  5.3, '5,3'],
+		                ['2012',  5.4, '5,4'],
+		                ['2013',  5.7, '5,7'],
+		                ['2014',  7.4, '7,4'],
+                        ['2015',  7.8, '7,8'],
+                        ]);
+
+                        var options = {
+		                  title: 'Gráfica Nº4: Evolución de gasto para la niñez y adolescencia(En millones de bolivianos)',
+                          titlePosition: 'none',
+						  curveType: 'function',
+		                  series: {0: { color: '#1ebbd7' },},
+                          width:800,
+                          height:450,
+						  backgroundColor: '#f5f5dc',
+						  chartArea:  { backgroundColor:'#e6e6fa', },
+                          vAxis: {title: 'Millones de Bs.',
+		                          gridlines: { count: 10, },
+								  minValue:0.0,
+		                          maxValue:9.0,
+								  format: 'percent',},
+                          hAxis: {title: 'Año'},
+		                  displayAnnotations: true,
+                          legend: 'none',
+		                  pointSize: 5,
+		                  pointShape:'square',
+		                  annotations: { boxStyle: { stroke: '#d41243',
+                                                     strokeWidth: 1,
+                                                     rx: 0,
+                                                     ry: 0,
+                                                     gradient: { color1: '#d41243',
+                                                                 color2: '#d41243',
+																 x1: '0%', y1: '0%',
+																 x2: '0%', y2: '0%',
+																 useObjectBoundingBoxUnits: true},
+						                           },
+	                                     highContrast:false,
+	                                     textStyle: { fontName: 'Georgia',
+                                                      fontSize: 12,
+                                                      color: '#f9f9f9',
+                                                      auraColor: 'none',
+                                                      opacity: 1.0 }, 
+	                                    },};
+                        var chart = new google.visualization.LineChart(document.getElementById('P41B'));
+                        chart.draw(data, options);
+                        }
+                       </script>
+                       </head>
+                        <body>
+                         <center>
+                            <div id="P41B"></div>
+							<p style="font-size:70%" > &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+							&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Fuente: “Presupuesto Público para Niñas, 
+							Niños y Adolescentes en Bolivia. Documento Metodológico para la Clasificación de &nbsp &nbsp &nbsp &nbsp 
+							&nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Recursos Asignados a la Infancia, Niñez y 
+							Adolescencia. Ministerio de Economía y Finanzas Públicas” </p>
+	                     </center>
+                        </body> 			 
 					 
                 </div>
                 

@@ -46,19 +46,24 @@ folder: Indicador
                      <a name="indice2"></a>
 					 <h3 style="color:#cc181e;">Método de cálculo</h3>	
                       <p>Se obtiene de dividir el número de infantes entre 0 a 5 meses de edad que son alimentados exclusivamente con leche materna entre el total de la población de infantes entre 0 a 5 meses de edad multiplicado por 100. </p>	
-<p></p>
-<div class="eq-c">
-<i>I<sub>p12</sub></i> = (
-<span class="intsuma">
-
-<span class="sum-frac">&sum;</span>
-<sup class="lim">N</sup>
-<sub class="lim"><i>i</i>=0</sub> n<sub>i</sub> (I(lm==1))
-</span>
-<span class="bar">/</span> N)*100
-</div>
-
-<p></p>
+<p align="center">
+					        <b>
+					        <div class="eq-c">
+                              <i>I<sub>P12</sub></i> = 
+                              <div class="fraction">
+							  <span class="intsuma">
+                              <span class="lim">N</span>
+                              <span class="sum-frac">&sum;</span>
+                              <span class="lim"><i>i</i>=1</span>
+                               </span>
+                              <span class="fup"><i>n<sub>i</sub>(I(lm==1))</i></span>
+                              <span class="bar">/</span>
+                              <span class="fdn"><i>N</i></span>
+                              </div>
+                              * 100 
+                            </div>
+							</b>
+</p> 	
 					 <p>Donde:</p>
 					 <p>I<sub>p12</sub> :Proporción de infantes entre 0´5 meses de edad que fueron alimentados exclusicavemente con leche materna en los días previos a la encuesta.</p>
 					 <p>I(lm==1):Infante de 0 a 5 meses que solo se alimenta con leche materna (variable dummy que toma el valor de 1 si las madres declaran que el único alimento que consumió recientemente su hijo/a durante los primeros 5 meses fue leche materna).</p>

@@ -158,8 +158,34 @@ folder: Indicador
           hAxis: {title: 'Año'},
           legend: 'none',
 		   pointSize: 5,
-		   pointShape:'square'
-         };
+		   pointShape:'square',
+		   annotations: {boxStyle: {
+                // Color del contorno de la caja.
+                stroke: '#888',
+               // Grosor del contorno de la caja.
+               strokeWidth: 1,
+               // Radio X de la curvatura de la esquina.
+               rx: 10,
+               // Radio Y de la curvatura de la esquina.
+               ry: 10,
+                 // Attributes for linear gradient fill.
+               gradient: {
+                // Comenzar el color para gradiente.
+                color1: '#fbf6a7',
+                //Acabado de color para degradado.
+                color2: '#33b679',
+                // Donde en el límite para comenzar y
+                // terminar el gradiente color1 / color2,
+                // relativo a la esquina superior izquierda
+                // del límite.
+                x1: '0%', y1: '0%',
+                x2: '100%', y2: '100%',
+                // Si es verdadero, el límite para x1,
+                // y1, x2, y y2 es el cuadro. Si
+                // falso, es el gráfico completo.
+                useObjectBoundingBoxUnits: true
+                 }}}
+            };
         var chart = new google.visualization.LineChart(document.getElementById('lineaP41'));
 
         chart.draw(data, options);

@@ -60,11 +60,11 @@ Summary:
  
  <br></br>
  
- <p align="justify" >“Unicef lleva adelante el Programa de Cooperación en Bolivia 2018 - 2022
+ <h3 align="justify" >“Unicef lleva adelante el Programa de Cooperación en Bolivia 2018 - 2022
  que tiene el objetivo de apoyar en la reducción de las brechas de 
  desigualdad, especialmente en los pueblos indígenas y lograr que los 
  niños y adolescentes constituyan un elemento fundamental para el 
- desarrollo sostenible.</p>
+ desarrollo sostenible.</h3>
  
  <br></br>
  

@@ -128,4 +128,38 @@ entries:
       output: web
     - title: Indicador OP42_2
       url: /indicador_r43.html
+      output: web	 
+
+  - title: Municipio
+    output: web
+    folderitems:
+    - title: La Paz
+      url: /la_paz
+      output: web
+    - title: El Alto
+      url: /el_alto
+      output: web
+    - title: Cochabamba
+      url: /cochabamba
+      output: web
+    - title: Independencia
+      url: /independencia
+      output: web
+    - title: Chimore
+      url: /chimore
+      output: web
+    - title: Puerto Villarroel
+      url: /puerto_villarroel
+      output: web
+    - title: Santa Cruz
+      url: /santa_cruz
+      output: web
+    - title: Montero
+      url: /montero
+      output: web
+    - title: Cobija
+      url: /cobija
+      output: web
+    - title: Puerto Gonzalo Moreno
+      url: /gonzalo_moreno
       output: web	  

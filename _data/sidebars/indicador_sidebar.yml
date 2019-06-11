@@ -139,9 +139,6 @@ entries:
     - title: El Alto
       url: /el_alto
       output: web
-    - title: Cochabamba
-      url: /cochabamba
-      output: web
     - title: Independencia
       url: /independencia
       output: web

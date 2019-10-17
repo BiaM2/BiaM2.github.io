@@ -32,23 +32,7 @@
                 </ul>
             </nav>
 
-            <div class="search col-lg-4 col-md-4 col-xs-12">
-                <form id="dummySearch">
-                    <label for="search"></label>
-                    <input id="search" name="serach" type="text" placeholder="Buscar en internet">
-                    <i class="fa fa-search"></i>
-                </form>
-                <script>
-                $(function(){
-                    $('#dummySearch').submit(function(e) {
-                        e.preventDefault();
-                        keyword = $('#search').val();
-                        url = 'https://www.google.com/search?q=' + keyword;
-                        location.href = url;
-                    })
-                })
-                </script>
-            </div>
+            
         </div>
     </div>
 </header>

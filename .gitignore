@@ -1,7 +1,6 @@
+*.lock
+.DS_Store
 _site/
 .sass-cache/
-.jekyll-metadata
-_pdf
-.DS_Store
-.idea
-ISML2018/
+_config.yml
+Gemfile

@@ -1,43 +1,36 @@
-{% include mode_switcher.html %}
-
 <!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-<head>
-    {% include head_base.html %}
-    {% include head_post.html %}
-</head>
+
+{% include head.html %}
 
 <body>
-    {% include header.html %}
 
-    <div class="container">
-        <div class="row">
-            <div id="markdown-container" class="col-lg-9">
-                <header>
-                    <p id="postTitle">{{ page.title }}</p>
-                    {% if page.tags %}
-                    <ul class="tags clearfix">
-                        {% for tag in page.tags %}
-                        <li><i class="fa fa-tag"></i> {{ tag }}</li>
-                        {% endfor %}
-                    </ul>
-                    {% endif %}
-                    <p id="postMeta">Publicado el {{ page.date | date_to_string }} en la categoría <a href="{{crturl}}category/">{{ page.categories[0] }}</a></p>
+    {% include header.html %} 
+    
+    
+<!-- Main -->
+<div id="main" class="alt">
 
-                </header>
+<!-- One -->
+<section id="one">
+	<div class="inner">
+		<header class="major">
+			<h1>{{ page.title }}</h1>
+		</header>
+		{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
+		<p>{{ content }}</p>
+	</div>
+</section>
 
-                {{ content }}
-            </div>
-
-            <div id="markdown-outline" class="col-lg-3">
-            </div>
-
-            
-        </div>
-    </div>
+</div>
 
     {% include footer.html %}
 
-    <script type="text/javascript" src="{{crturl}}javascripts/markdownreader.js"></script>
 </body>
+
 </html>

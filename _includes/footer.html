@@ -1,44 +1,119 @@
-{% assign my = site.my %}
-<footer id="l-footer">
-    <div class="container">
-        <div class="row">
-            <div id="contact" class="col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-9">
-                <h3>CONTACTOS</h3>
-                <div class="row">
-                    <address id="address" class="col-lg-6 col-md-6 col-sm-6">
-                        {{ my.contact.address.country }} {{ my.contact.address.state }} {{ my.contact.address.city }}<br>
-                        {{ my.contact.address.distribute }}, {{ my.contact.address.postcode }}<br>
-                        {{ my.contact.address.cell }}<br>
-                        {{ my.realName }}<br>
-                    </address>
+<!-- Contact -->
+<section id="contact">
+	<div class="inner">
+		<section>
+			<form action="https://formspree.io/{{ site.email }}" method="POST">
+				<div class="field half first">
+					<label for="name">Name</label>
+					<input type="text" name="name" id="name" />
+				</div>
+				<div class="field half">
+					<label for="email">Email</label>
+					<input type="text" name="_replyto" id="email" />
+				</div>
+				<div class="field">
+					<label for="message">Message</label>
+					<textarea name="message" id="message" rows="6"></textarea>
+				</div>
+				<ul class="actions">
+					<li><input type="submit" value="Send Message" class="special" /></li>
+					<li><input type="reset" value="Clear" /></li>
+				</ul>
+			</form>
+		</section>
+		<section class="split">
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-envelope"></span>
+					<h3>Email</h3>
+					<a href="#">{{ site.email }}</a>
+				</div>
+			</section>
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-phone"></span>
+					<h3>Phone</h3>
+					<span>{{ site.phone }}</span>
+				</div>
+			</section>
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-home"></span>
+					<h3>Address</h3>
+					<span>
+					{% if site.street_address %}
+					    {{ site.street_address }}<br />
+					{% endif %}
+					{% if site.city %}
+					    {{ site.city }},
+					{% endif %}
+					{% if site.state %}
+					    {{ site.state }} 
+					{% endif %}
+					{% if site.zip_code %}
+					    {{ site.zip_code }}<br />
+					{% endif %}
+					{% if site.country %}
+					    {{ site.country }}
+					{% endif %}
+					</span>
+				</div>
+			</section>
+		</section>
+	</div>
+</section>
 
-                    <ul class="col-lg-6 col-md-6 col-sm-6">
-                        <li class="qq"><i class="fa fa-qq"></i> &nbsp;&nbsp;{{ my.contact.qq }}</li>
-                        <li class="email"><i class="fa fa-envelope"></i> <a href="mailto:{{ my.contact.email }}"> &nbsp;&nbsp;{{ my.contact.email }}</a></li>
-                        <li class="tel"><i class="fa fa-mobile"></i> <a href="tel:22004492">&nbsp;&nbsp; {{ my.contact.tel }}</a></li>
-                        <li class="github"><i class="fa fa-github"></i> <a href="{{ my.contact.github }}"> &nbsp;&nbsp;{{ my.contact.github }}</a></li>
-                    </ul>
-                </div>
-            </div>
+<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<ul class="icons">
+				{% if site.twitter_url %}
+				<li><a href="{{ site.twitter_url }}" class="icon alt fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+				{% endif %}
+				{% if site.googleplus_url %}
+				<li><a href="{{ site.googleplus_url }}" class="icon alt fa-google-plus" target="_blank"><span class="label">Google+</span></a></li>
+				{% endif %}
+				{% if site.facebook_url %}
+				<li><a href="{{ site.facebook_url }}" class="icon alt fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+				{% endif %}
+				{% if site.instagram_url %}
+				<li><a href="{{ site.instagram_url }}" class="icon alt fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+				{% endif %}
+				{% if site.pinterest_url %}
+				<li><a href="{{ site.pinterest_url }}" class="icon alt fa-pinterest" target="_blank"><span class="label">Pinterest</span></a></li>
+				{% endif %}
+				{% if site.500px_url %}
+				<li><a href="{{ site.500px_url }}" class="icon alt fa-500px" target="_blank"><span class="label">500px</span></a></li>
+				{% endif %}
+				{% if site.gitlab_url %}
+				<li><a href="{{ site.gitlab_url }}" class="icon alt fa-gitlab" target="_blank"><span class="label">GitLab</span></a></li>
+				{% endif %}
+				{% if site.github_url %}
+				<li><a href="{{ site.github_url }}" class="icon alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+				{% endif %}
+				{% if site.slack_url %}
+				<li><a href="{{ site.slack_url }}" class="icon alt fa-slack" target="_blank"><span class="label">Slack</span></a></li>
+				{% endif %}
+				{% if site.linkedin_url %}
+				<li><a href="{{ site.linkedin_url }}" class="icon alt fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+				{% endif %}
+			</ul>
+			<ul class="copyright">
+				<li>&copy; {{ site.title }} {{ site.subtitle }}</li>
+				<li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
+				<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a></li>
 
-            <div id="rss" class="col-lg-2 col-md-2 col-sm-2">
-                    <h3>SUBSCRIBE<br>
-                    via</h3>
-                <a href="feed.xml">
-                    <i class="rss fa fa-rss-square"></i>
-                </a>
-            </div>
-        </div>
+			</ul>
+		</div>
+	</footer>
 
-        <p id="legal">
-            Elaboración 2018 {{ my.displayName }} | Vía <a href="http://jekyllrb.com">Jekyll</a> &amp; <a href="http://github.com">GitHub</a> | Diseño &amp; Repositorio <a href="http://unifreak.github.io">UniFreak</a>
-        </p>
-    </div>
-</footer>
+</div>
 
-<script type="text/javascript" src="{{crturl}}javascripts/base.js"></script>
-
-{% if site.mode != 'dev' %}
-<!-- 百度统计 -->
-<script type="text/javascript" src="{{crturl}}javascripts/baidu_statistics.js"></script>
-{% endif %}
+<!-- Scripts -->
+	<script src="{{ "assets/js/jquery.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/jquery.scrolly.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/jquery.scrollex.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/skel.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/util.js" | absolute_url }}"></script>
+	<!--[if lte IE 8]><script src="{{ "assets/js/ie/respond.min.js" | absolute_url }}"></script><![endif]-->
+	<script src="{{ "assets/js/main.js" | absolute_url }}"></script>

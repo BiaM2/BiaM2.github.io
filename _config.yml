@@ -1,65 +1,36 @@
-# highlighter: pygments
-highlighter: rouge
+# site settings
+title: Instituto de Estadística Teórica y Aplicada
+subtitle: Banco de Investigaciones y Datos
+email: ieta.umsa@gmail.com
+description: Proyecto de Interacción Social 2018
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://ieta-umsa.github.io" 
+author: Lic. Alvaro Chirino
+street_address: Cota Cota c/27
+city: La Paz
+state: La Paz
+zip_code: NA
+country: Bolivia
+phone: (+591) 22442100
 
-markdown: redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
-# markdown: kramdown
-# kramdown:
-#     input: GFM
-#     syntax_highlighter: rouge
+# homepage tiles
+tiles-source: posts # accepts "posts" or "pages"
+tiles-count: 6
 
-gems: [jekyll-paginate]
-paginate: 7
-paginate_path: "page:num"
-layout: post
-permalink: /:categories/:title
-excerpt_separator: "[-----]"
+# social settings
+500px_url:
+facebook_url:
+#github_url:
+#gitlab_url: https://gitlab.com/u/andrewbanchich
+#googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
+#instagram_url: https://instagram.com
+#linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+#pinterest_url:
+#slack_url:
+twitter_url: https://twitter.com/andrewbanchich
 
-# mode: dev
-mode: product
-url: https://datosaru.github.io/
-devurl: http://localhost:4000/
-name: Metadatos
-title: Metadatos | Aru
-description: "Metadatos ARU"
+# build settings
+markdown: kramdown
 
-my:
-    displayName: Unidad de Datos
-    realName: Metadatos
-    realName_cn: Unidad de Datos
-    jobTitle: "Encuestas"
-    contact:
-        qq: 22004491
-        email: udata@aru.org.bo
-        github: https://udata-aru.github.io/
-        qzone: Av. Arce
-        pinterest: https://www.pinterest.com/miblah/
-        tel: 22004492-22004491
-        address:
-            country: Bolivia
-            state: La Paz
-            city: Prov Murillo
-            distribute: Unidad de Datos
-            postcode: 000000
-            cell: "Fundación ARU"
-    skills:
-        frontend: ["HTML", "GITHUB", "R", "REDATAM"]
-        backend: ["PHP", "GIT", "R", "JAVA", "C++"]
-        tools: ["R", "STATA", "GITHUB", "QGIS", "LATEX", "CSPRO", "MICROSTATION", "REDATAM", "SPSS"]
-
-collections:
-    qqGroupGuide:
-        output: true
-
-defaults:
-  - scope:
-        path: ""
-        type: "posts"
-    values:
-        excerpt: "{{ page.content }} | slice: 0 300"
-  - scope:
-        path: ""
-        type: "qqGroupGuide"
-    values:
-        layout: markdownreader_bare
+sass:
+  style: compressed

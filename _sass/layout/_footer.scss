@@ -1,44 +1,42 @@
-/**
- * ----------------------------------------------------------------------------------------
- * Footer style
- * ----------------------------------------------------------------------------------------
- */
-#l-footer {
-    background-color: rgb(127, 11, 27);
-    color: white;
-    margin-top: 7rem;
-    padding: 1.5rem;
+///
+/// Forty by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
 
-    h3 {
-        text-align: center;
-        margin-bottom: 0.5rem;
-    }
+/* Footer */
 
-    address {
-        text-align: right;
-        padding-right: 2rem;
-    }
+	#footer {
+		.copyright {
+			font-size: 0.8em;
+			list-style: none;
+			padding-left: 0;
 
-    #rss {
-        text-align: center;
-    }
+			li {
+				border-left: solid 1px _palette(border);
+				color: _palette(fg-light);
+				display: inline-block;
+				line-height: 1;
+				margin-left: 1em;
+				padding-left: 1em;
 
-    .rss {
-        font-size: 6rem;
-    }
+				&:first-child {
+					border-left: 0;
+					margin-left: 0;
+					padding-left: 0;
+				}
+			}
+		}
 
-    #legal {
-        text-align: center;
-        color: rgb(0, 0, 0);
-    }
-}
-
-@media (max-width: 768px) {
-    #l-footer {
-        address {
-            text-align: left;
-            margin-bottom: 2rem;
-        }
-
-    }
-}
+		@include breakpoint(xsmall) {
+			.copyright {
+				li {
+					display: block;
+					border-left: 0;
+					margin-left: 0;
+					padding-left: 0;
+					line-height: inherit;
+				}
+			}
+		}
+	}

@@ -1,21 +1,21 @@
 # site settings
-title: Instituto de Estadística Teórica y Aplicada
-subtitle: Banco de Investigaciones y Datos
-email: ieta.umsa@gmail.com
-description: Proyecto de Interacción Social 2018
+title: Unidad de Datos
+subtitle: Banco de Datos
+email: udata@aru.org.bo
+description: Banco de Datos
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://ieta-umsa.github.io" 
-author: Lic. Alvaro Chirino
-street_address: Cota Cota c/27
+url: "https://biam2.github.io" 
+author: Unidad de Datos
+street_address: Arce
 city: La Paz
 state: La Paz
 zip_code: NA
 country: Bolivia
-phone: (+591) 22442100
+phone: (+591) 22004492
 
 # homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
-tiles-count: 6
+tiles-count: 2
 
 # social settings
 500px_url:

@@ -24,7 +24,6 @@
 		position: relative;
 		top: -3.25em;
 		
-/* CUBRE AL BACKGROUND */
 		&:after {
 			@include vendor('transition', 'opacity #{_duration(banner)} ease');
 			@include vendor('transition-delay', '0.75s');
@@ -43,7 +42,6 @@
 
 		h1 {
 			font-size: 4.25em;
-			font-color: "red";
 		}
 
 		> .inner {

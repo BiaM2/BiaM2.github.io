@@ -2,7 +2,7 @@
 layout: post
 title: Repositorio de Datos
 description: Datum
-image: assets/images/datum.jpg
+image:
 ---
 
 ## Fuentes Primarias (Propias de UD-ARU)

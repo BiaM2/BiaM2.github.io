@@ -1,6 +1,6 @@
 # site settings
 title: Unidad de Datos
-subtitle: repositorio de datos
+subtitle: repositorio de base de datos
 email: udata@aru.org.bo
 description: Banco de Datos
 baseurl: "/" # the subpath of your site, e.g. /blog

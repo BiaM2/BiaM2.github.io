@@ -10,7 +10,7 @@
 
 <body>
 
-    <!--{% include header.html %}-->
+    {% include header.html %}
 
     <!-- Banner -->
     <section id="banner" class="major">
@@ -20,13 +20,33 @@
             </header>
             <div class="content">
                 <p style="text-transform: uppercase;">{{ site.description }}</p>
-                  <!--<ul class="actions">
+                <ul class="actions">
                     <li><a href="#one" class="button next scrolly">Explora</a></li>
-                  </ul>-->
+                </ul>
             </div>
         </div>
     </section>
+
     <!-- Main -->
+    <div id="main">
+
+        <!-- One -->
+        {% include tiles.html %}
+
+        <!-- Two -->
+        <section id="two">
+            <div class="inner">
+                <header class="major">
+                    <h2>Algo de Historia</h2>
+                </header>
+                <p>{{ content }}</p>
+                <ul class="actions">
+                    <li><a href="#one" class="button next">Explora</a></li>
+                </ul>
+            </div>
+        </section>
+
+    </div>
 
     {% include footer.html %}
 

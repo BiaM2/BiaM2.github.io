@@ -10,7 +10,7 @@
 		@include vendor('align-items', 'center');
 		@include vendor('background-image', 'url("../images/banner.jpg")');
 		@include vendor('display', 'flex');
-		@include padding(4em, 0, (2em, 0, 0, 0));
+		@include padding(1em, 0, (2em, 0, 0, 0));
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -23,7 +23,8 @@
 		min-height: 22em;
 		position: relative;
 		top: -3.25em;
-
+		
+/* CUBRE AL BACKGROUND */
 		&:after {
 			@include vendor('transition', 'opacity #{_duration(banner)} ease');
 			@include vendor('transition-delay', '0.75s');

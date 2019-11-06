@@ -15,7 +15,7 @@ phone: (+591) 22004492
 
 # homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
-tiles-count: 2
+tiles-count: 0
 
 # social settings
 500px_url:
@@ -27,7 +27,7 @@ facebook_url:
 #linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
 #pinterest_url:
 #slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+#twitter_url: https://twitter.com/andrewbanchich
 
 # build settings
 markdown: kramdown

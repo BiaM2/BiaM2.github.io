@@ -8,8 +8,10 @@ clear *
 import delimited using https://ieta-umsa.github.io/datum/data/`anything'.csv, delimiter(";")
 do https://ieta-umsa.github.io/datum/data/`anything'.do
 label data `anything'
-note: Repositorio de base de Datos Unidad de Datos- Fundación ARU
+note: Repositorio del Instituto de Estadística Teórica y Aplicada - UMSA
 }
 end
 exit
-Unidad de Datos
+Alvaro Chirino
+University of San Andres
+faculty of mathematics and natural sciences

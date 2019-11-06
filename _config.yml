@@ -1,6 +1,6 @@
 # site settings
 title: Unidad de Datos
-subtitle: repositorio de base de datos
+subtitle: Repositorio de Base de datos
 email: udata@aru.org.bo
 description: Banco de Datos
 baseurl: "/" # the subpath of your site, e.g. /blog
@@ -15,7 +15,7 @@ phone: (+591) 22004492
 
 # homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
-tiles-count: 0
+tiles-count: 2
 
 # social settings
 500px_url:

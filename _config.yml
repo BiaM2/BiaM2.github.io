@@ -1,8 +1,8 @@
 # site settings
-title: Unidad de Datos
+title: Repositorio de Base de Datos
 subtitle: Repositorio de Base de datos
 email: udata@aru.org.bo
-description: Banco de Datos
+description: Unidad de Datos Fundacion ARU
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://biam2.github.io" 
 author: Unidad de Datos

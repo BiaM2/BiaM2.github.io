@@ -20,7 +20,7 @@
 				border: solid 1px _palette(border);
 				border-left: 0;
 				border-right: 0;
-                font-weight: #000000;
+                font-weight: lighter;
 				&:nth-child(2n) {
 					background-color: #708090;
 				}
@@ -37,7 +37,7 @@
 		th {
 		    background-color: #008B8B;
 			font-size: 1em;
-			font-weight: #000000;
+			font-weight: 900;
 			padding: 0.75em 0.75em 0.75em 0.75em;
 			text-align: center;
 		}

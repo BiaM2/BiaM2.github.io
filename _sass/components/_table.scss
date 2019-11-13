@@ -20,12 +20,12 @@
 				border: solid 1px _palette(border);
 				border-left: 0;
 				border-right: 0;
-                font-weight: #ffffff;
+                font-weight: #000000;
 				&:nth-child(2n) {
-					background-color: #87CEFA;
+					background-color: #708090;
 				}
 				&:nth-child(2n + 1) {
-					background-color: #4682B4;
+					background-color: #D3D3D3;
 				}
 			}
 		}
@@ -36,8 +36,8 @@
 
 		th {
 		    background-color: #008B8B;
-			font-size: 1 em;
-			font-weight: #ffffff;
+			font-size: 1em;
+			font-weight: #000000;
 			padding: 0.75em 0.75em 0.75em 0.75em;
 			text-align: center;
 		}

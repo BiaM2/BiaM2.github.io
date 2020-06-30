@@ -1,11 +1,61 @@
-<!-- Wrapper -->
-<div id="wrapper">
+<!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">{{site.title}}</a>
+            </div>
 
-<!-- Header -->
-<header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
-	<a href="https://biam2.github.io" class="logo"><strong>Inicio</strong></a> 
-	<a href="https://biam2.github.io/2019/11/15/data" class="logo"><strong>Fuentes Propias</strong></a> 
-	<a href="https://biam2.github.io/2019/11/15/data2" class="logo"><strong>Fuentes Secundarias</strong></a> 
-	
-</header>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services"><span style="color: darkred;">Categorías</span></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio"><span style="color: darkred;">Normas y Guías</span></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about"><span style="color: darkred;">Fechas importantes</span></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team"><span style="color: darkred;">Comité Evaluador</span></a>
+                    </li>
+                    <li>				
+                        <a class="page-scroll" href="#contact"><span style="color: darkred;">Contacto</span></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-heading"><span style="color: black;">Competencia Boliviana de Posters Estadísticos</span></div>
+                <div class="intro-lead-in"><span style="color: black;">Primera versión: 2018 - 2019</span></div>
+                 <a href="islp_Bolivia1.html" class="page-scroll btn btn-xl">Inscríbete y manda tu póster!!!</a>
+                
+        </div>
+        </div>
+                    
+    </header>
+<!--
+        {% for page in site.pages %}
+          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
+        {% endfor %}
+ -->
+<!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSeyYgkPbHrD74-9MGvJf5vdHVuhqI25ySdvfsUYITZwE-eWTw/viewform" class="page-scroll btn btn-xl">Inscribete Aquí!!!</a>
+                 <a href="https://docs.google.com/forms/d/e/1FAIpQLScndUzvMWLAn9JvpKwsmDfyZcUD3bXQI_SdfIRw07zgUyjFnQ/viewform" class="page-scroll btn btn-xl">Envía tu poster</a>

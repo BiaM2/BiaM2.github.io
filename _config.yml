@@ -1,36 +1,52 @@
-# site settings
-title: Repositorio de Base de Datos
-subtitle: Repositorio de Base de datos
-email: udata@aru.org.bo
-description: Unidad de Datos Fundacion ARU
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://biam2.github.io" 
-author: Unidad de Datos
-street_address: Arce
-city: La Paz
-state: La Paz
-zip_code: NA
-country: Bolivia
-phone: (+591) 22004492
+url: https://islp-bolivia.github.io/
+baseurl: https://islp-bolivia.github.io/
+# Site settings
+title: Alfabetización Estadística Bolivia 
+email: mailto:islp.bolivia@gmail.com
+description: "Primera Competencia Boliviana de Posters Estadísticos. Participa!!! Inscripciones abiertas hasta Octubre/2020"
 
-# homepage tiles
-tiles-source: posts # accepts "posts" or "pages"
-tiles-count: 2
 
-# social settings
-500px_url:
-facebook_url:
-#github_url:
-#gitlab_url: https://gitlab.com/u/andrewbanchich
-#googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-#instagram_url: https://instagram.com
-#linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-#pinterest_url:
-#slack_url:
-#twitter_url: https://twitter.com/andrewbanchich
+# Team names, titles and social links
+people:
+- name: Instituto Nacional de Estadística
+  pic: ine
+  position: Estado Plurinacional de Bolivia
+  social:
+    - title: twitter
+      url: https://twitter.com/ineoficialbo?lang=es
+    - title: facebook
+      url: https://www.facebook.com/ineboliviaoficial/
+    - title: dribbble
+      url: https://www.ine.gob.bo/
+- name: Carrera de Economía - La Paz 
+  pic: ucb
+  position: Universidad Católica Boliviana
+  social:
+    - title: dribbble
+      url: http://lpz.ucb.edu.bo/Forms/ProgramasAcademicos/Pregrado/ECO/ECO.aspx
 
-# build settings
+- name: Fundación Aru
+  pic: arulogo
+  position: Instituto de Investigación
+  social:
+    - title: twitter
+      url: https://twitter.com/arufoundation?lang=es
+    - title: facebook
+      url: https://www.facebook.com/FundacionARU
+    - title: dribbble
+      url: https://www.aru.org.bo/
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/IslpBolivia
+  - title: facebook
+    url: https://www.facebook.com/islpBolivia/
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: La Paz - Bolivia
+
+# Build settings
 markdown: kramdown
-
-sass:
-  style: compressed
+permalink: pretty

@@ -18,12 +18,12 @@ people:
  #     url: https://www.facebook.com/ineboliviaoficial/
  #   - title: dribbble
   #    url: https://www.ine.gob.bo/
-- name: Carrera de Economía - La Paz 
-  pic: ucb
-  position: Universidad Católica Boliviana
-  social:
-    - title: dribbble
-      url: http://lpz.ucb.edu.bo/Forms/ProgramasAcademicos/Pregrado/ECO/ECO.aspx
+#- name: Carrera de Economía - La Paz 
+#  pic: ucb
+#  position: Universidad Católica Boliviana
+#  social:
+#    - title: dribbble
+#      url: http://lpz.ucb.edu.bo/Forms/ProgramasAcademicos/Pregrado/ECO/ECO.aspx
 
 - name: Fundación Aru
   pic: arulogo

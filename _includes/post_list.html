@@ -13,13 +13,7 @@
 {% endfor %}
 
 {% else %}
-    {% for post1 in include.posts1 %}
-        {% if post1.tags1 or post1.category %}
-            {% include post1_list_item.html %}
-            {% assign displayPagi = true %}
-        {% endif %}
-
-    {% endfor %}
+    
 
 {% endif %}
 

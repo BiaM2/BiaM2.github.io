@@ -23,17 +23,10 @@
                     </ul>
 
                     {% else %}
-                    {% if page.tags1 %}
-                    <ul class="tags1 clearfix">
-                        {% for tag1 in page.tags1 %}
-                        <li><i class="fa fa-tag1"></i> {{ tag1 }}</li>
-                        {% endfor %}
-                    </ul>
+                   
                     {% endif %}
 
-                    {% endif %}
-
-                    <p id="postMeta">Publicado el {{ page.date | date_to_string }} en la categoría <a href="{{crturl}}category/">{{ page.categories[0] }} </a> en la institucion <a href="{{crturl}}category1/">{{ page.categories1[0] }} </a></p>
+                    <p id="postMeta">Publicado el {{ page.date | date_to_string }} en la categoría <a href="{{crturl}}category/">{{ page.categories[0] }} </a> en la institucion <a href="{{crturl}}category1/">{{ page.categories[0] }} </a></p>
 
                 </header>
 

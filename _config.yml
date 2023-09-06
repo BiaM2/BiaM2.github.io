@@ -1,52 +1,66 @@
-url: https://islp-bolivia.github.io/
-baseurl: https://islp-bolivia.github.io/
-# Site settings
-title: Alfabetización Estadística Bolivia 
-email: mailto:islp.bolivia@gmail.com
-description: "Primera Competencia Boliviana de Posters Estadísticos. Participa!!! Inscripciones abiertas hasta Octubre/2020"
+# highlighter: pygments
+highlighter: rouge
 
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+# markdown: kramdown
+# kramdown:
+#     input: GFM
+#     syntax_highlighter: rouge
 
-# Team names, titles and social links
-people:
-#- name: Instituto Nacional de Estadística
-# pic: ine
-#  position: Estado Plurinacional de Bolivia
- # social:
-  #  - title: twitter
-#      url: https://twitter.com/ineoficialbo?lang=es
- #   - title: facebook
- #     url: https://www.facebook.com/ineboliviaoficial/
- #   - title: dribbble
-  #    url: https://www.ine.gob.bo/
-#- name: Carrera de Economía - La Paz 
-#  pic: ucb
-#  position: Universidad Católica Boliviana
-#  social:
-#    - title: dribbble
-#      url: http://lpz.ucb.edu.bo/Forms/ProgramasAcademicos/Pregrado/ECO/ECO.aspx
+gems: [jekyll-paginate]
+paginate: 7
+paginate_path: "page:num"
+layout: post
+layout: post1
+permalink: /:categories/:title
+excerpt_separator: "[-----]"
 
-- name: Fundación Aru
-  pic: arulogo
-  position: Instituto de Investigación
-  social:
-    - title: twitter
-      url: https://twitter.com/arufoundation?lang=es
-    - title: facebook
-      url: https://www.facebook.com/FundacionARU
-    - title: dribbble
-      url: https://www.aru.org.bo/
+# mode: dev
+mode: product
+url: https://datosaru.github.io/
+devurl: http://localhost:4000/
+name: Metadatos
+title: Metadatos | Aru
+description: "Metadatos ARU"
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: https://twitter.com/IslpBolivia
-  - title: facebook
-    url: https://www.facebook.com/islpBolivia/
+my:
+    displayName: Unidad de Datos
+    realName: Metadatos
+    realName_cn: Unidad de Datos
+    jobTitle: "Encuestas"
+    contact:
+        qq: 22779067
+        email: udata@aru.org.bo
+        github: https://udata-aru.github.io/
+        qzone: Av. Arce
+        pinterest: https://www.pinterest.com/miblah/
+        tel: 22779067
+        address:
+            country: Bolivia
+            state: La Paz
+            city: Prov. Murillo
+            distribute: Unidad de Datos
+            postcode: 0
+            cell: "Fundación ARU"
+    skills:
+        frontend: ["HTML", "GITHUB", "R", "REDATAM"]
+        backend: ["PHP", "GIT", "R", "JAVA", "C++"]
+        tools: ["R", "STATA", "GITHUB", "QGIS", "LATEX", "CSPRO", "MICROSTATION", "REDATAM", "SPSS"]
 
-# Postal address (add as many lines as necessary)
-address:
-  - line: La Paz - Bolivia
+collections:
+    qqGroupGuide:
+        output: true
 
-# Build settings
-markdown: kramdown
-permalink: pretty
+defaults:
+  - scope:
+        path: ""
+        type: "posts"
+    values:
+        excerpt: "{{ page.content }} | slice: 0 300"
+  - scope:
+        path: ""
+        type: "qqGroupGuide"
+    values:
+        layout: markdownreader_bare

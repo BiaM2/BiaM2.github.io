@@ -3,15 +3,15 @@ layout: base
 ---
 <div class="row">
     <ul class="col-lg-2" id="filterList">
-        {% assign idx = 0 %}
+        {% assign idx1 = 0 %}
         {% for category1 in site.categories1 %}
-            <li {% if idx == 0 %} class="current" {% endif %} data-show="{{ category1 | first }}">
+            <li {% if idx1 == 0 %} class="current" {% endif %} data-show="{{ category1 | first }}">
                 <a href="javascript:void(0)">
                 {{ category1 | first }}
                 <span class="cateCnt">{{ category1 | last | size }}</span>
                 </a>
             </li>
-            {% assign idx = idx | plus: 1 %}
+            {% assign idx1 = idx1 | plus: 1 %}
         {% endfor %}
     </ul>
 
@@ -19,7 +19,7 @@ layout: base
     {% for category1 in site.categories1 %}
         <section class="showcase col-lg-9 col-lg-offset-1 {% if cate1Idx > 0 %} hide {% else %} current {% endif %}" data-show="{{ category1 | first }}">
             {% for posts in category1 %}
-                {% include post_list.html posts=posts cateIdx=cate1Idx %}
+                {% include post_list.html posts=posts cate1Idx=cate1Idx %}
                 {% assign cate1Idx = cate1Idx | plus: 1 %}
             {% endfor %}
 

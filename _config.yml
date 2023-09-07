@@ -10,10 +10,9 @@ redcarpet:
 #     syntax_highlighter: rouge
 
 gems: [jekyll-paginate]
-paginate: 7
+paginate: 8
 paginate_path: "page:num"
 layout: post
-layout: post1
 permalink: /:categories/:title
 excerpt_separator: "[-----]"
 

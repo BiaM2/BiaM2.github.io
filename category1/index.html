@@ -4,7 +4,7 @@ layout: base
 <div class="row">
     <ul class="col-lg-2" id="filterList">
         {% assign idx1 = 0 %}
-        {% for category1 in site.categories1 %}
+        {% for category1 in site.categories %}
             <li {% if idx1 == 0 %} class="current" {% endif %} data-show="{{ category1 | first }}">
                 <a href="javascript:void(0)">
                 {{ category1 | first }}
@@ -16,7 +16,7 @@ layout: base
     </ul>
 
     {% assign cate1Idx = 0 %}
-    {% for category1 in site.categories1 %}
+    {% for category1 in site.categories %}
         <section class="showcase col-lg-9 col-lg-offset-1 {% if cate1Idx > 0 %} hide {% else %} current {% endif %}" data-show="{{ category1 | first }}">
             {% for posts in category1 %}
                 {% include post_list.html posts=posts cate1Idx=cate1Idx %}

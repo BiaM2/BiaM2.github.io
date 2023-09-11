@@ -15,17 +15,6 @@ layout: base
             {% assign idx = idx | plus: 1 %}
         {% endfor %}
 
-        {% for tag1 in site.tags1 %}
-            <li {% if idx == 0 %} class="current" {% endif %} data-show="{{ tag1 | first }}">
-                <a href="javascript:void(0)">
-                <i class="fa fa-tag1"></i>
-                 {{ tag1 | first }}
-                <span class="tagCnt">{{ tag1 | last | size }}</span>
-                </a>
-            </li>
-            {% assign idx = idx | plus: 1 %}
-        {% endfor %}
-
     </ul>
 
     {% assign tagIdx = 0 %}
